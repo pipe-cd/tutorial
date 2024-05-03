@@ -83,10 +83,11 @@ copyright = "The PipeCD Authors"
 # This menu appears only if you have at least one [params.versions] set.
 version_menu = ""
 
+# TODO: Update the URLs to pipe-cd
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/pipe-cd/pipecd"
+github_repo = "https://github.com/ca-dp/pipecd-tutorial"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/pipe-cd/pipecd"
+github_project_repo = "https://github.com/ca-dp/pipecd-tutorial"
 
 # Specify a value here if your content directory is not in your repo's root directory
 github_subdir = "docs"
