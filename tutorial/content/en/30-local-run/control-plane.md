@@ -1,6 +1,7 @@
 ---
 title: "01. Control Plane"
 weight: 1
+description: "Easily install a Control Plane by docker-compose"
 ---
 
 # <span style="color:red">TODO: FIX the links</span>

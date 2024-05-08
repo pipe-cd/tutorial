@@ -1,6 +1,7 @@
 ---
 title: "Local Run"
 weight: 3
+description: "Understand and experiment PipeCD easily"
 ---
 
 In this chapter, you will run a Control Plane and a Piped locally, and then deploy an application.
