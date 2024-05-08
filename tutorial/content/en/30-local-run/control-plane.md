@@ -1,5 +1,5 @@
 ---
-title: "Control Plane"
+title: "01. Control Plane"
 weight: 1
 ---
 
