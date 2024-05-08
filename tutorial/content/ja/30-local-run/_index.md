@@ -1,5 +1,5 @@
 ---
-title: "Local Run"
+title: "ローカルで構築"
 weight: 3
 ---
 
