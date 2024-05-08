@@ -15,7 +15,7 @@ This corresponds to [1] in the figure below.
 A Control Plane is made up of multiple components like below.
 <img src="/images/control-plane-architecture.png">
 
-In this guide, we will install a Control Plane by creating each component as containers and use `docker-compose` to organize them.
+In this guide, you will install a Control Plane by creating each component as containers and use `docker-compose` to organize them.
 
 cf. See [architecture-overview doc](https://pipecd.dev/docs/user-guide/managing-controlplane/architecture-overview/) for details.
 
