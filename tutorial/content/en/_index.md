@@ -7,8 +7,14 @@ weight: 1
 ## Overview of this tutorial
 
 - For whom?
+  - Those who do not know much about PipeCD but want to learn instantly
 
-- What you'll learn
+
+- By the end of this tutorial, you’ll be able to:
+  - Explain what's and why PipeCD
+  - Experiment PipeCD locally
+  - Deploy applications with your own pipelines
+
 
 ## Table of Contents
 
@@ -18,5 +24,11 @@ weight: 1
    - Instantly run PipeCD on Kubernetes
 3. [Local Run](./30-local-run/)
    - Install a Control Plane and a Piped locally and deploy an application.
+   - Customize pipelines
 4. [Features](./40-features/)
    - Learn about some useful features.
+
+## See Also
+
+- [PipeCD Documentation](https://pipecd.dev/docs/)
+- 
