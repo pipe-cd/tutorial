@@ -15,7 +15,7 @@ In this guide, you will run a Piped agent locally as a Docker container.
    1. Access the console on [http://localhost:8080](http://localhost:8080).
    2. Go to the Settings page via [the three dots menu on the upper right] > `Settings`.
     <img src="/images/30-local-run/20-piped/gotosetting.png">
-   3. Click `ADD`.
+   3. Click `+ ADD`.
     <img src="/images/30-local-run/20-piped/add.png">
    4. Enter any `Name` and `Description`, and then click `SAVE`.
     <img src="/images/30-local-run/20-piped/add-piped.png">

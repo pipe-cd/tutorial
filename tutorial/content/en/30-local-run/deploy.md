@@ -53,7 +53,7 @@ Kind: ECSApp
 ## 2. Register an application
 
 1. Go to the console. [http://localhost:8080](http://localhost:8080)
-2. `ADD`
+2. `+ ADD`
 3. 
 
 ## 3. Confirm the first deployment
