@@ -66,43 +66,18 @@ Kind: ECSApp
 
 ## 4. Edit the config and deploy automatically
 
-1. Edit
+1. Edit the config
 
 
 {{< tabpane >}}
 {{< tab header="Kubernetes" >}}
 
 {{< /tab >}}
-{{< tab header="Cloud Run" >}}
-
-{{< /tab >}}
-
-{{< tab header="Amazon ECS" >}}
-
-- app.pipecd.yaml
-
-```yaml
-apiVersion: xxx
-Kind: ECSApp
-```
-
-- servicedef.yaml
-- taskdef.yaml
-
-{{< /tab >}}
-
-{{< tab header="AWS Lambda" >}}
-
-- app.pipecd.yaml
-- function.yaml
-
-{{< /tab >}}
-
-{{< tab header="Terraform" >}}
-
-- app.pipecd.yaml
-- any .tf file to apply
-
-{{< /tab >}}
 
 {{< /tabpane >}}
+
+2. Commit and push the change.
+
+3. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
+4. A new deployment will start in a few minutes. 
+   That's because your Piped detected a new commit that has not been deployed yet and triggered the deployment.
