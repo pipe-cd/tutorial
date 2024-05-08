@@ -27,7 +27,7 @@ cf. See [architecture-overview doc](https://pipecd.dev/docs/user-guide/managing-
 
 ## Installation
 
-1. Execute the following command on [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/src/03-local-run/01-control-plane/docker-compose.yaml).
+1. Execute the following command on [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/03-local-run/01-control-plane/docker-compose.yaml).
 ```sh
 docker-compose up
 ```
@@ -65,11 +65,11 @@ pipecd-server-1   | start running http server on :9082
 
     <img src="/images/ui/applications.png">
 
-[^1]: These values are defined in [control-plane-config.yaml>`spec.projects`](https://github.com/ca-dp/pipecd-tutorial/src/volume/pipecd-config/control-plane-config.yaml).
+[^1]: These values are defined in [control-plane-config.yaml>`spec.projects`](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/volume/pipecd-config/control-plane-config.yaml).
 
 ## Clean up
 
-1. Execute the following command on the [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/src/03-local-run/01-control-plane/docker-compose.yaml).
+1. Execute the following command on the [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/03-local-run/01-control-plane/docker-compose.yaml).
    This will delete all the containers including data in the data stores.
 
 ```console
@@ -93,7 +93,7 @@ docker-compose up pipecd-server
 
 ### How to use other version images
 
-Edit the following points in the [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/src/03-local-run/01-control-plane/docker-compose.yaml).
+Edit the following points in the [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/03-local-run/01-control-plane/docker-compose.yaml).
 - `service.pipecd-server.image`
 - `service.pipecd-ops.image`
 
@@ -103,7 +103,7 @@ cf. See [here](https://github.com/pipe-cd/pipecd/pkgs/container/pipecd) for offi
 ### Note: `control-plane-local` is a debugging project
 
 
-Since `control-plane-local` is defined in [control-plane-config.yaml](https://github.com/ca-dp/pipecd-tutorial/src/volume/pipecd-config/control-plane-config.yaml), it is a debugging project. (cf. [control-plane-configuration](https://pipecd.dev/docs/user-guide/managing-controlplane/configuration-reference/#control-plane-configuration))
+Since `control-plane-local` is defined in [control-plane-config.yaml](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/volume/pipecd-config/control-plane-config.yaml), it is a debugging project. (cf. [control-plane-configuration](https://pipecd.dev/docs/user-guide/managing-controlplane/configuration-reference/#control-plane-configuration))
 
 Therefore there are some limits. For example, you cannot edit RBAC/SSO of the project.
 
