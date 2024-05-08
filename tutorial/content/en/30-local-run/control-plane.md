@@ -68,28 +68,9 @@ pipecd-server-1   | start running http server on :9082
 
 [^1]: These values are defined in [control-plane-config.yaml>`spec.projects`](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/volume/pipecd-config/control-plane-config.yaml).
 
-## Clean up
-
-1. Execute the following command on the [docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/03-local-run/01-control-plane/docker-compose.yaml).
-   This will delete all the containers including data in the data stores.
-
-```console
-docker-compose down
-```
 
 
 ## Appendix
-
-### How to reboot the Control Plane's `server` component with data retained
-
-Since `docker-compose down` will delete data in the data stores, you need to reregister them after rebooting.
-
-You can retain data and reboot the Control Plane's `server` component by following commands, which reboot only the `server`.
-
-```console
-docker-compose rm -fsv pipecd-server
-docker-compose up pipecd-server
-```
 
 
 ### How to use other version images
