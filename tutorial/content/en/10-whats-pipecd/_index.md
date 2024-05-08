@@ -1,5 +1,5 @@
 ---
 title: "What's PipeCD"
-weight: 1
+weight: 10
 ---
 

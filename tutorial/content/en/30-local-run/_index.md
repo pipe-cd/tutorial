@@ -1,6 +1,6 @@
 ---
 title: "Local Run"
-weight: 3
+weight: 30
 description: "Understand and experiment PipeCD easily"
 ---
 
