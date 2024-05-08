@@ -51,12 +51,12 @@ pipecd-server-1   | start running http server on :9082
 ## Confirmation
 
 1. Access the console running on [http://localhost:8080](http://localhost:8080)
-2. The following screen will appear. Enter the following value and `CONTINUE`.
+2. The following screen will appear. Enter the following value and click `CONTINUE`.
    - `Project Name`: `control-plane-local`　[^1]
 
     <img src="/images/ui/login1.png">
 
-3. The following screen will appear. Enter the following values and `LOGIN`.
+3. The following screen will appear. Enter the following values and click `LOGIN`.
    - `Username`: `hello-pipecd` [^1]
    - `Password`: `hello-pipecd`
 
