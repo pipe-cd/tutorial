@@ -1,0 +1,45 @@
+apiVersion: pipecd.dev/v1beta1
+kind: Piped
+spec:
+  projectID: control-plane-local
+  pipedID: <YOUR_PIPED_ID> # piped id generated on the control plane
+  pipedKeyData: <YOUR_PIPED_KEY> # base64 encoded string of the piped key
+  apiAddress: localhost:9080
+  repositories:
+    - repoID: examples-repo
+      remote: <YOUR_GIT_REPOSITORY_URL>
+      branch: master
+  syncInterval: 15s
+  platformProviders:
+
+    # Kubernetes > When you deploy to the same cluster as where your piped runs
+    # - name: kubernetes-internal
+    #   type: KUBERNETES
+    
+    # Kubernetes > When you deploy to the different cluster from where your piped runs
+    # - name: kubernetes-external
+    #   type: KUBERNETES
+    #   config:
+    #     kubeconfigPath: <YOUR_KUBECONFIG_PATH>
+
+    # Google Cloud > Cloud Run
+    # - name: cloudrun-dev
+    #   type: CLOUDRUN
+
+    # AWS > ECS
+    # - name: ecs
+    #   type: ECS
+    #   config:
+    #     region: ap-northeast-1
+    #     profile: default
+
+    # AWS > Lambda
+    # - name: lambda
+    #   type: LAMBDA
+    #   config:
+    #     region: ap-northeast-1
+    #     profile: default
+
+    # Terraform
+    # - name: terraform
+    #   type: TERRAFORM
