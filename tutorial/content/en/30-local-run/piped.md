@@ -5,7 +5,6 @@ description: "Run a Piped agent"
 ---
 
 In this guide, you will run a Piped agent locally as a Docker container.
-`
 
 ## Installation
 
@@ -29,7 +28,7 @@ In this guide, you will run a Piped agent locally as a Docker container.
 4. Run a Piped as a Docker container. [^1]
 
    ```console
-   cd <The directory your piped-config.yaml exists>
+   cd <The directory your piped-config.yaml exists in>
    docker run -v ./piped-config.yaml:/etc/piped-config.yaml ghcr.io/pipe-cd/piped:v0.47.0 piped --insecure --config-file=/etc/piped-config.yaml
    ```
 
@@ -37,10 +36,16 @@ In this guide, you will run a Piped agent locally as a Docker container.
 
 ## Confirmation
 
-1. Access the setting page on the console. [http://localhost:8080/settings/piped?project=control-plane-local](http://localhost:8080/settings/piped?project=control-plane-local)
+1. Access the `Settings` page on the console. [http://localhost:8080/settings/piped?project=control-plane-local](http://localhost:8080/settings/piped?project=control-plane-local)
 
     If successful, you will see a green mark(=Online) in the Name area of your Piped.
       <img src="/images/30-local-run/20-piped/piped-status.png">
 
     If it is not green, please wait for a few minutes.
+
+## Next Step
+
+Now you have completed setting up the components: the Control Plane and the Piped.
+
+In [the next section](./deploy.md), you will deploy applications with them.
 
