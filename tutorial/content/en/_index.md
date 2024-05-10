@@ -17,12 +17,14 @@ By the end of this tutorial, you will be able to:
 
 1. [Overview](./10-whats-pipecd/)
    - Learn about PipeCD's overview and strengths.
-2. [Quickstart](./20-quickstart/)
+2. [Prerequisites](./15-prerequisites/)
+   - What you need for the following tutorial.
+3. [Quickstart](./20-quickstart/)
    - Instantly run PipeCD on Kubernetes.
-3. [Local Run](./30-local-run/)
+4. [Local Run](./30-local-run/)
    - Install a Control Plane and a Piped on local and deploy an application.
    - Customize pipelines.
-4. [Features](./40-features/)
+5. [Features](./40-features/)
    - Learn about some useful features.
 
 ## See Also
