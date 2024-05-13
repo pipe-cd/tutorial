@@ -52,32 +52,45 @@ Kind: ECSApp
 
 ## 2. Register an application
 
-1. Go to the console. [http://localhost:8080](http://localhost:8080)
-2. `+ ADD`
-3. 
+2-1. Go to the console. [http://localhost:8080](http://localhost:8080)
 
-## 3. Confirm the first deployment
+2-2. Click `+ ADD`.
 
-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
-2. A new deployment will appear. Click it to see details.
-3. 
+2-3. Enter values and click `SAVE`->`SAVE`.
+   - `Piped`: Your Piped's Id
+   - `Platform Provider`: The platform
+   - `Application`: The application you configured in [1.](#1-create-configuration-files)
 
+2-4. If successful, you will see the dialog like the following image.
+
+![](/images/ui/application-is-added.png)
+
+
+## 3. Watch the first deployment
+
+3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
+
+3-2. A new deployment will automatically appear. Click it to see details.
+
+> **Note**: You do not need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
+
+
+3-3. Wait until the status become `SUCCESS`/`FAILURE`.
+     If it shows `FAILURE`, check the log in the page.
+
+3-4. When the status became `SUCCESS`, the deloyment is successfully finished.
+
+3-5. See your platform(Kubernetes cluster or cloud console) to check the result.
+     
 
 
 ## 4. Edit the config and deploy automatically
 
-1. Edit the config
+4-1. Edit the config file you deployed. (e.g. Change the image tag, sizing, etc.)
 
+4-2. Commit and push the change.
 
-{{< tabpane >}}
-{{< tab header="Kubernetes" >}}
+4-3. Go to the deployments page again. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
-{{< /tab >}}
-
-{{< /tabpane >}}
-
-2. Commit and push the change.
-
-3. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
-4. A new deployment will start in a few minutes. 
-   That's because your Piped detected a new commit that has not been deployed yet and triggered the deployment.
+4-4. A new deployment will start in a few minutes.
+> **Note**: That's because your Piped detected a new commit that has not been deployed yet and triggered the new deployment.
