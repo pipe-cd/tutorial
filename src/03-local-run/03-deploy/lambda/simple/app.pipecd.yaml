@@ -1,4 +1,4 @@
-# This file defines behaviour of deploying a simple Lambda application.
+# This file defines the behavior of deploying a simple Lambda application.
 apiVersion: pipecd.dev/v1beta1
 kind: LambdaApp
 spec:
