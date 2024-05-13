@@ -1,4 +1,4 @@
-# This file defines behaviour of deploying a simple ECS application.
+# This file defines behaviour of deploying a simple ECS service with a task definition.
 apiVersion: pipecd.dev/v1beta1
 kind: ECSApp
 spec:
