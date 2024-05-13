@@ -7,7 +7,7 @@ description: "Deploy an application and experience GitOps"
 
 ## 1. Create configuration files
 
-<span style='color:red'>TODO: How to write multiple files in each tab?</span>
+1-1. Edit configuration files in your forked tutorial repository depending on your platform kind.
 
 {{< tabpane >}}
 {{< tab header="Kubernetes" >}}
@@ -48,6 +48,8 @@ Kind: ECSApp
 {{< /tabpane >}}
 
 
+1-2. Commit and push the changes.
+
 
 
 ## 2. Register an application
@@ -84,7 +86,7 @@ Kind: ECSApp
      
 
 
-## 4. Edit the config and deploy automatically
+## 4. Edit the config and watch a new deployment
 
 4-1. Edit the config file you deployed. (e.g. Change the image tag, sizing, etc.)
 
