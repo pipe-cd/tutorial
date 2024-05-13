@@ -1,0 +1,21 @@
+# This file defines service's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/create-service.html for other options.
+cluster: <YOUR_ECS_CLUSTER_ARN> # [EDIT_HERE] the cluster to which you deploy this service
+serviceName: simple-app-service
+desiredCount: 2
+deploymentConfiguration:
+  maximumPercent: 200
+  minimumHealthyPercent: 0
+schedulingStrategy: REPLICA
+deploymentController:
+  type: EXTERNAL
+enableECSManagedTags: true
+propagateTags: SERVICE
+launchType: FARGATE
+networkConfiguration:
+  awsvpcConfiguration:
+    assignPublicIp: ENABLED
+    securityGroups:
+      - sg-YYYY # [EDIT_HERE]
+    subnets:
+      - subnet-YYYY # [EDIT_HERE]
+      - subnet-YYYY # [EDIT_HERE]

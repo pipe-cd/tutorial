@@ -1,0 +1,16 @@
+# This file defines behaviour of deploying a simple ECS application.
+apiVersion: pipecd.dev/v1beta1
+kind: ECSApp
+spec:
+  name: simple-app
+  input:
+    serviceDefinitionFile: servicedef.yaml
+    taskDefinitionFile: taskdef.yaml
+    targetGroups:
+      primary:
+        targetGroupArn: <YOUR_TARGET_GROUP_ARN> # [EDIT_HERE] the target group that your ALB uses to traffic to the ECS service.
+        containerName: web
+        containerPort: 80
+  description: |
+    This app demonstrates how to deploy an ECS application under an ALB with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
+    cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#ecs-application)

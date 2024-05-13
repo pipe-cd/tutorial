@@ -1,0 +1,21 @@
+# This file defines task-definition's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/deregister-task-definition.html for other options.
+family: simple-app-family
+executionRoleArn: <YOUR_TASK_EXECUTION_ARN> # [EDIT_HERE]
+containerDefinitions:
+  - command: null
+    cpu: 100
+    image: <YOUR_IMAGE_URL> XXXX.dkr.ecr.ap-northeast-1.amazonaws.com/nginx:1 # [EDIT_HERE]
+    memory: 100
+    mountPoints: []
+    name: web
+    portMappings:
+      - containerPort: 80
+compatibilities:
+  - FARGATE
+requiresCompatibilities:
+  - FARGATE
+networkMode: awsvpc
+memory: 512
+cpu: 256
+pidMode: ""
+volumes: []
