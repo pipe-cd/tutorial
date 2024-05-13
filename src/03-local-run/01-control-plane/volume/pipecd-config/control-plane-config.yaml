@@ -1,3 +1,4 @@
+# This is a configuration for running a Control Plane. See https://pipecd.dev/docs-v0.47.x/user-guide/managing-controlplane/configuration-reference/ for details.
 apiVersion: "pipecd.dev/v1beta1"
 kind: ControlPlane
 spec:
@@ -15,6 +16,7 @@ spec:
       secretKeyFile: /etc/pipecd-secret/minio-secret-key
       autoCreateBucket: true
   projects:
+    # This is a debugging project. See https://pipecd.dev/docs/user-guide/managing-controlplane/adding-a-project/ when using more features about projects.
     - id: control-plane-local
       staticAdmin:
         username: hello-pipecd
