@@ -1,9 +1,9 @@
 ---
-linkTitle: "PipeCD Tutorial"
+title: "PipeCD Tutorial"
 weight: 1
 ---
 
-## Welcome to PipeCD Tutorial!!
+# **Welcome to PipeCD Tutorial!**
 
 This is a hands-on introduction to PipeCD intended for beginners.
 
