@@ -6,7 +6,7 @@ description: "Briefly understand an overview of PipeCD"
 
 ## What is PipeCD
 
-PipeCD is an open source tool for Continuous Delivery.
+PipeCD is an OSS for Continuous Delivery.
 
 ![](/images/10-overview/pipecd-explanation.png)
 
@@ -94,6 +94,15 @@ Architecture Overview
    2. a single binary component. That means you can run a Piped anywhere.
    3. stateless
 
+
+### Why PipeCD has Control Plane and Piped?
+<span style='color:red'>TODO: Write here because it's strange for beginners why a CD tool has a Control Plane</span>
+
+- Security
+  - 
+- Scalability in a large organization
+   -
+- UI??
 
 ## See Also
 
