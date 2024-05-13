@@ -4,7 +4,7 @@ kind: ECSApp
 spec:
   name: simple-app
   input:
-    serviceDefinitionFile: servicedef.yaml
+    serviceDefinitionFile: service.yaml
     taskDefinitionFile: taskdef.yaml
     targetGroups:
       primary:
