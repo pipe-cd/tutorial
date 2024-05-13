@@ -1,7 +1,7 @@
 ---
 title: "03. Deploy"
 weight: 3
-description: "Deploy an application and experiment GitOps"
+description: "Deploy an application and experience GitOps"
 ---
 
 

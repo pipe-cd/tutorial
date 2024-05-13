@@ -9,7 +9,7 @@ This is a hands-on introduction to PipeCD for beginners.
 
 By the end of this tutorial, you will be able to:
   - Explain what's and why PipeCD
-  - Experiment PipeCD locally
+  - Experiment with PipeCD locally
   - Deploy applications with your own pipelines
 
 
