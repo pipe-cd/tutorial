@@ -24,6 +24,7 @@ In this guide, you will run a Piped agent locally as a Docker container.
    - `spec.pipedID`: `Piped Id` you got in 2.5.
    - `spec.pipedKeyData`: `Base64 Encoded Piped Key` you got in 2.5.
    - `spec.repositories[0].remote`: The URL of your repository you made in 1.
+   - `spec.platformProviders`: Uncomment one item. You will deploy to the environment.
 
 4. Run a Piped as a Docker container. [^1]
 
