@@ -1,0 +1,13 @@
+# This is a configuration file of defining behaviour of deploying a simple Kubernetes application.
+apiVersion: pipecd.dev/v1beta1
+kind: KubernetesApp
+spec:
+  name: simple-app
+  input:
+    manifests:
+      - deployment.yaml
+      - service.yaml
+    kubectlVersion: 1.18.5
+  description: |
+    This app demonstrates how to deploy a Kubernetes application with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
+    cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/)
