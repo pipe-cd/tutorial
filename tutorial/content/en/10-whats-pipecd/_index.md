@@ -10,6 +10,10 @@ PipeCD is an open source tool for Continuous Delivery.
 
 ![](/images/10-overview/pipecd-explanation.png)
 
+<p style="text-align: center;">
+PipeCD - a GitOps style solution for Continuous Delivery
+</p>
+
 ### 1. Deploy to several kinds of platforms
 - Currently, PipeCD supports five types of deployment target
   - Kubernetes
@@ -71,19 +75,21 @@ Automatically roll back to the previous state as soon as analysis or a pipeline 
 
 
 
-## Architecture
+## Architecture: Control Plane and Agent Model
 
-### Overview: Control Plane and Agent model
-
-PipeCD is mainly made up of two components: Control Plane and Piped.
+PipeCD is mainly made up of two components - Control Plane and Piped.
 
 ![](/images/10-overview/architecture-overview.png)
 
-1. Control Plane
+<p style="text-align: center;">
+Architecture Overview
+</p>
+
+1. **Control Plane**
    1. provides the UI
    2. [is made up of five components](https://pipecd.dev/docs/user-guide/managing-controlplane/architecture-overview/)
    3. manages states 
-2. Piped
+2. **Piped**
    1. a deployment agent
    2. a single binary component. That means you can run a Piped anywhere.
    3. stateless
