@@ -58,10 +58,14 @@ Kind: ECSApp
 
 2-2. Click `+ ADD`.
 
+// TODO: Insert an image here
+
 2-3. Enter values and click `SAVE`->`SAVE`.
    - `Piped`: Your Piped's Id
    - `Platform Provider`: The platform
    - `Application`: The application you configured in [1.](#1-create-configuration-files)
+
+// TODO: Insert an image here
 
 2-4. If successful, you will see the dialog like the following image.
 
@@ -72,15 +76,22 @@ Kind: ECSApp
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
-3-2. A new deployment will automatically appear. Click it to see details.
+3-2. Wait until a new deployment automatically appear. Then click it to see details.
 
 > **Note**: You do not need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
+
+// TODO: Insert an image here
 
 
 3-3. Wait until the status become `SUCCESS`/`FAILURE`.
      If it shows `FAILURE`, check the log in the page.
 
+// TODO: Insert an image here:  Deploying
+
+
 3-4. When the status became `SUCCESS`, the deloyment is successfully finished.
+
+// TODO: Insert an image here: SUCCESS
 
 3-5. See your platform(Kubernetes cluster or cloud console) to check the result.
      
