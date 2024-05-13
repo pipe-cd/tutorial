@@ -1,4 +1,4 @@
-# This is a configuration file of defining behaviour of deploying a simple Kubernetes application.
+# This file defines behaviour of deploying a simple Kubernetes application.
 apiVersion: pipecd.dev/v1beta1
 kind: KubernetesApp
 spec:
