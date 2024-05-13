@@ -15,7 +15,7 @@ networkConfiguration:
   awsvpcConfiguration:
     assignPublicIp: ENABLED
     securityGroups:
-      - sg-YYYY # [EDIT_HERE]
+      - <SECURITY_GROUP_ID> # [EDIT_HERE] The IDs of the security groups associated with the service. like sg-xxx
     subnets:
-      - subnet-YYYY # [EDIT_HERE]
-      - subnet-YYYY # [EDIT_HERE]
+      - <SUBNET_ID_1> # [EDIT_HERE] The IDs of the subnets associated with the service. like subnet-xxx
+      - <SUBNET_ID_2> # [EDIT_HERE] 
