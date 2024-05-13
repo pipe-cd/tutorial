@@ -1,0 +1,9 @@
+# This file defines behaviour of deploying a simple Lambda application.
+apiVersion: pipecd.dev/v1beta1
+kind: LambdaApp
+spec:
+  name: simple-app
+  functionManifestFile: function.yaml
+  description: |
+    This app demonstrates how to deploy a Lambda application with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
+    cf.: [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#lambda-application)
