@@ -7,7 +7,7 @@ deploymentConfiguration:
   minimumHealthyPercent: 0
 schedulingStrategy: REPLICA
 deploymentController:
-  type: EXTERNAL
+  type: EXTERNAL # This must be EXTERNAL.
 enableECSManagedTags: true
 propagateTags: SERVICE
 launchType: FARGATE
