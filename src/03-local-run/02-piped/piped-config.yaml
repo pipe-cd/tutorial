@@ -1,45 +1,47 @@
+# This is a configuration for running a Piped. See https://pipecd.dev/docs/user-guide/managing-piped/configuration-reference/ for details.
 apiVersion: pipecd.dev/v1beta1
 kind: Piped
 spec:
   projectID: control-plane-local
-  pipedID: <YOUR_PIPED_ID> # piped id generated on the control plane
-  pipedKeyData: <YOUR_PIPED_KEY> # base64 encoded string of the piped key
+  pipedID: <YOUR_PIPED_ID> # [EDIT_HERE] piped id generated on the control plane
+  pipedKeyData: <YOUR_PIPED_KEY> # [EDIT_HERE] base64 encoded string of the piped key
   apiAddress: localhost:9080
   repositories:
-    - repoID: examples-repo
-      remote: <YOUR_GIT_REPOSITORY_URL>
-      branch: master
+    - repoID: tutorial-repo
+      remote: <YOUR_GIT_REPOSITORY_URL> # [EDIT_HERE] 
+      branch: main
   syncInterval: 15s
   platformProviders:
+    # [EDIT_HERE] Uncomment one of followings:
 
-    # Kubernetes > When you deploy to the same cluster as where your piped runs
-    # - name: kubernetes-internal
+    ## Kubernetes > When you deploy to the same cluster as where your piped runs
+    # - name: my-kubernetes-internal
     #   type: KUBERNETES
     
-    # Kubernetes > When you deploy to the different cluster from where your piped runs
-    # - name: kubernetes-external
+    ## Kubernetes > When you deploy to the different cluster from where your piped runs
+    # - name: my-kubernetes-external
     #   type: KUBERNETES
     #   config:
     #     kubeconfigPath: <YOUR_KUBECONFIG_PATH>
 
-    # Google Cloud > Cloud Run
-    # - name: cloudrun-dev
+    ## Google Cloud > Cloud Run
+    # - name: my-cloudrun
     #   type: CLOUDRUN
 
-    # AWS > ECS
-    # - name: ecs
+    ## AWS > ECS
+    # - name: my-ecs
     #   type: ECS
     #   config:
-    #     region: ap-northeast-1
-    #     profile: default
+    #     region: <YOUR_AWS_REGION> # e.g. ap-northeast-1
+    #     profile: default # Name of your AWS credentials profile
 
-    # AWS > Lambda
-    # - name: lambda
+    ## AWS > Lambda
+    # - name: my-lambda
     #   type: LAMBDA
     #   config:
-    #     region: ap-northeast-1
-    #     profile: default
+    #     region:  <YOUR_AWS_REGION>  # e.g. ap-northeast-1
+    #     profile: default # Name of your AWS credentials profile
 
-    # Terraform
-    # - name: terraform
+    ## Terraform
+    # - name: my-terraform
     #   type: TERRAFORM
