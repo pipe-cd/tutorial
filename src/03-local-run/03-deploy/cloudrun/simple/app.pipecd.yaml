@@ -1,0 +1,8 @@
+# This file defines the behavior of deploying a simple CloudRun.
+apiVersion: pipecd.dev/v1beta1
+kind: CloudRunApp
+spec:
+  name: simple-app
+  description: |
+    This app demonstrates how to deploy a Cloud Run application with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
+    cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#cloud-run-application)
