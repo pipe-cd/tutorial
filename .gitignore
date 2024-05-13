@@ -1,1 +1,7 @@
 .vscode
+
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
