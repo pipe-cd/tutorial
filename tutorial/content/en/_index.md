@@ -16,13 +16,13 @@ By the end of this tutorial, you will be able to:
 ## Table of Contents
 
 1. [Overview](./10-whats-pipecd/)
-   - Learn about PipeCD's overview and strengths.
+   - Quickly learn about PipeCD's overview and strengths.
 2. [Prerequisites](./15-prerequisites/)
-   - What you need for the following tutorial.
+   - Setup for the following tutorial.
 3. [Local Run](./30-local-run/)
-   - Install a Control Plane and a Piped on local and then deploy an application.
+   - Install PipeCD on local and then deploy.
    - Customize pipelines.
-4. [Features](./40-features/)
+4. [Appendix: Features](./40-features/) (optional)
    - Learn about some useful features.
 
 ## See Also
