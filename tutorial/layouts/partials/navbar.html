@@ -5,6 +5,7 @@
 	<a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
 		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . |
 			minify).Content | safeHTML }}{{ end }}{{ end }}</span>
+		<span style="font-weight:bold ">{{ .Site.Title }}</span>
 	</a>
 	{{ end }}
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
