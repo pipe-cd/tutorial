@@ -9,7 +9,7 @@ description: "What you need in advance"
 To perform this tutorial, you'll need the following:
 
 - **Fork [the tutorial repository](https://github.com/ca-dp/pipecd-tutorial) and clone it to your local.**
-
+  - You will edit it and use it as the deployment source.
 - Docker Engine
 - docker-compose
 
