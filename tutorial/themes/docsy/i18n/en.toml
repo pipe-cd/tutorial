@@ -42,7 +42,7 @@ other = "Edit this page"
 [post_create_child_page]
 other = "Create child page"
 [post_create_issue]
-other = "Create documentation issue"
+other = "Create issue"
 [post_create_project_issue]
 other = "Create project issue"
 [post_posts_in]

@@ -48,7 +48,7 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "G-R8377JT762"
+id = "G-XXXXXXXXXX"
 
 [security]
 [security.funcs]
@@ -60,15 +60,15 @@ getenv = ['^HUGO_', 'RELEASE']
 [languages.en]
 title = "PipeCD Tutorial"
 # description = "The Tutorial for PipeCD Beginners"
-languageName ="English"
+languageName = "English"
 # Weight used for sorting.
 weight = 1
 
 [languages.ja]
 title = "PipeCD Tutorial"
 # description = "The Tutorial for PipeCD Beginners"
-contentDir="content/ja"
-languageName ="日本語"
+contentDir = "content/ja"
+languageName = "日本語"
 # Weight used for sorting.
 weight = 2
 
@@ -95,16 +95,16 @@ version_menu = ""
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/ca-dp/pipecd-tutorial"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/ca-dp/pipecd-tutorial"
+# github_project_repo = "https://github.com/ca-dp/pipecd-tutorial"
 
 # Specify a value here if your content directory is not in your repo's root directory
-github_subdir = "docs"
+github_subdir = "tutorial"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 offlineSearch = true
 
- # First one is picked as the Twitter card image if not set on page.
+# First one is picked as the Twitter card image if not set on page.
 images = ["images/ogp-logo.png"]
 
 # User interface configuration
@@ -127,39 +127,39 @@ navbar_logo = true
 [params.ui.feedback]
 enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/pipe-cd/pipecd/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/pipe-cd/pipecd/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/ca-dp/pipecd-tutorial/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/ca-dp/pipecd-tutorial/issues/new">tell us how we can improve</a>.'
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name ="Twitter"
-	url = "https://twitter.com/pipecd_dev"
-	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
+name = "Twitter"
+url = "https://twitter.com/pipecd_dev"
+icon = "fab fa-twitter"
+desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
-	name = "Stack Overflow"
-	url = "https://stackoverflow.com/questions/tagged/pipecd"
-	icon = "fab fa-stack-overflow"
-        desc = "Practical questions and curated answers"
+name = "Stack Overflow"
+url = "https://stackoverflow.com/questions/tagged/pipecd"
+icon = "fab fa-stack-overflow"
+desc = "Practical questions and curated answers"
 [[params.links.user]]
-	name = "User mailing list"
-	url = "mailto:pipecd.dev@gmail.com"
-	icon = "fa fa-envelope"
-        desc = "Discussion and help from your fellow users"
+name = "User mailing list"
+url = "mailto:pipecd.dev@gmail.com"
+icon = "fa fa-envelope"
+desc = "Discussion and help from your fellow users"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
-	name = "GitHub"
-	url = "https://github.com/pipe-cd"
-	icon = "fab fa-github"
-        desc = "Development takes place here!"
+name = "GitHub"
+url = "https://github.com/pipe-cd"
+icon = "fab fa-github"
+desc = "Development takes place here!"
 [[params.links.developer]]
-	name = "Slack"
-	url = "https://slack.cncf.io"
-	icon = "fab fa-slack"
-        desc = "Chat with other project developers"
+name = "Slack"
+url = "https://slack.cncf.io"
+icon = "fab fa-slack"
+desc = "Chat with other project developers"
 [[params.links.developer]]
-	name = "Developer mailing list"
-	url = "mailto:pipecd.dev@gmail.com"
-	icon = "fa fa-envelope"
-        desc = "Discuss development issues around the project"
+name = "Developer mailing list"
+url = "mailto:pipecd.dev@gmail.com"
+icon = "fa fa-envelope"
+desc = "Discuss development issues around the project"
