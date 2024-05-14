@@ -30,6 +30,7 @@ In this guide, you will run a Piped agent locally as a Docker container.
 
    ```console
    cd <The directory your piped-config.yaml exists in>
+   docker pull ghcr.io/pipe-cd/piped:v0.47.0
    docker run -v ./piped-config.yaml:/etc/piped-config.yaml ghcr.io/pipe-cd/piped:v0.47.0 piped --insecure --config-file=/etc/piped-config.yaml
    ```
 
