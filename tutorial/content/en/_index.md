@@ -10,10 +10,12 @@ This is a hands-on introduction to PipeCD intended for beginners.
 By the end of this tutorial, you will be able to:
   - Explain what's and why PipeCD
   - Experiment with PipeCD locally
-  - Deploy applications with your own pipelines
+  - Deploy with your own pipelines
 
 
 ## Table of Contents
+
+We recommend reading in order.
 
 1. [Overview](./10-whats-pipecd/)
    - Quickly learn about PipeCD's overview and strengths.
