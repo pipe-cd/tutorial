@@ -5,27 +5,22 @@ weight: 1
 
 # **Welcome to PipeCD Tutorial!**
 
-This is a hands-on introduction to PipeCD intended for beginners.
+This is a hands-on introduction to PipeCD intended for the beginners.
 
 By the end of this tutorial, you will be able to:
   - Explain what's and why PipeCD
   - Experiment with PipeCD locally
-  - Deploy with your own pipelines
+  - Deploy with pipelines you define
 
 
 ## Table of Contents
 
 We recommend reading in order.
 
-1. [Overview](./10-whats-pipecd/)
-   - Quickly learn about PipeCD's overview and strengths.
-2. [Prerequisites](./15-prerequisites/)
-   - Setup for the following tutorial.
-3. [Local Run](./30-local-run/)
-   - Install PipeCD on local and then deploy.
-   - Customize pipelines.
-4. [Appendix: Features](./40-features/) (optional)
-   - Learn about some useful features.
+1. [**Overview**](./10-whats-pipecd/):  Quickly learn about PipeCD's overview and strengths.
+2. [**Prerequisites**](./15-prerequisites/):  Setup for the following tutorial.
+3. [**Local Run**](./30-local-run/):  Install PipeCD on local and deploy.
+4. [**Appendix: Features**](./40-features/) (optional):  Learn about some useful features.
 
 ## See Also
 
