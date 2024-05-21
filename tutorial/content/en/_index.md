@@ -1,28 +1,44 @@
 ---
-title: "PipeCD Tutorial"
+title: "Tutorial"
 weight: 1
 ---
 
 # **Welcome to PipeCD Tutorial!**
 
-This is a hands-on introduction to PipeCD intended for the beginners.
+This is a hands-on introduction to PipeCD for the beginners.
+
+
+## What for
 
 By the end of this tutorial, you will be able to:
   - Explain what's and why PipeCD
   - Experiment with PipeCD locally
   - Deploy with pipelines you define
 
+This is **NOT** intended for those who right now want to:
 
-## Table of Contents
+- Install PipeCD in a production-ready way (See [Doc > Installation](https://pipecd.dev/docs/installation/))
+- Develop and test PipeCD (See [CONTRIBUTING.md](https://github.com/pipe-cd/pipecd/blob/master/CONTRIBUTING.md))
+
+## What you will do
+
+You will run PipeCD on local and deploy by it. The overall architecture is as below:
+
+![local architecture resized](/images/architecture-resized.png)
+
+
+### Table of Contents
 
 We recommend reading in order.
 
-1. [**Overview**](./10-whats-pipecd/):  Quickly learn about PipeCD's overview and strengths.
-2. [**Prerequisites**](./15-prerequisites/):  Setup for the following tutorial.
-3. [**Local Run**](./30-local-run/):  Install PipeCD on local and deploy.
-4. [**Appendix Features**](./40-features/) (optional):  Learn about some useful features.
+1. [**Overview**](10-overview/): Quickly learn about PipeCD's overview and strengths.
+2. [**Prerequisites**](20-prerequisites/): What you need before the tutorial.
+3. [**Installation**](30-installation/): Install PipeCD on local.
+4. [**Deploy**](40-deploy/): Deploy applications and customize the pipeline.
+5. [**Additional Features**](50-features/) (_optional_): Learn about some advanced features. You can skip it if you are in a hurry.
+6. [**Clean up**](90-clean/): Clean up the local PipeCD.
 
 ## See Also
 
-- [PipeCD Documentation](https://pipecd.dev/docs/)
-- [QuickStart](https://pipecd.dev/docs/quickstart/): This is recommended if you have a Kubernetes environment and just want to see how PipeCD works more quickly than this tutorial.
+- [PipeCD Doc](https://pipecd.dev/docs/)
+- [QuickStart](https://pipecd.dev/docs/quickstart/): This is recommended if you just want to see how PipeCD works and have a Kubernetes environment. It is more quickly than this tutorial.

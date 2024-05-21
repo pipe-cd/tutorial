@@ -1,0 +1,28 @@
+# This file defines the behavior of deploying a Cloud Run application with Canary strategy.
+apiVersion: pipecd.dev/v1beta1
+kind: CloudRunApp
+spec:
+  name: canary-app
+  pipeline:
+    stages:
+      # Promote new version to receive amount of traffic.
+      - name: CLOUDRUN_PROMOTE
+        with:
+          percent: 10
+      - name: WAIT
+        with:
+          duration: 30s
+      # Promote new version to receive amount of traffic.
+      - name: CLOUDRUN_PROMOTE
+        with:
+          percent: 50
+      - name: WAIT
+        with:
+          duration: 30s
+      # Promote new version to receive all traffic.
+      - name: CLOUDRUN_PROMOTE
+        with:
+          percent: 100
+  description: |
+    This app demonstrates how to deploy a Cloud Run application with Canary strategy.\
+    cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#cloud-run-application)

@@ -1,0 +1,21 @@
+# This file defines service's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/create-service.html for other options.
+cluster: <YOUR_ECS_CLUSTER_ARN> # [EDIT_HERE] the cluster to which you deploy this service
+serviceName: canary-app-service
+desiredCount: 2
+deploymentConfiguration:
+  maximumPercent: 200
+  minimumHealthyPercent: 0
+schedulingStrategy: REPLICA
+deploymentController:
+  type: EXTERNAL # This must be EXTERNAL.
+enableECSManagedTags: true
+propagateTags: SERVICE
+launchType: FARGATE
+networkConfiguration:
+  awsvpcConfiguration:
+    assignPublicIp: ENABLED
+    securityGroups:
+      - <YOUR_SECURITY_GROUP_ID> # [EDIT_HERE] The IDs of the security groups associated with the service. like sg-xxx
+    subnets:
+      - <YOUR_SUBNET_ID_1> # [EDIT_HERE] The IDs of the subnets associated with the service. like subnet-xxx
+      - <YOUR_SUBNET_ID_2> # [EDIT_HERE] 

@@ -1,0 +1,44 @@
+# This file defines the behavior of deploying a ECS service and a task definition with Canary strategy.
+apiVersion: pipecd.dev/v1beta1
+kind: ECSApp
+spec:
+  name: canary-app
+  input:
+    serviceDefinitionFile: servicedef.yaml
+    taskDefinitionFile: taskdef.yaml
+    targetGroups:
+      primary: # The primary taskSet will receive traffic via this target group.
+        targetGroupArn: <YOUR_TARGET_GROUP_1_ARN> # [EDIT_HERE]
+        containerName: web
+        containerPort: 80
+      canary: # The canary taskSet will receive traffic via this target group.
+        targetGroupArn: <YOUR_TARGET_GROUP_2_ARN> # [EDIT_HERE]
+        containerName: web
+        containerPort: 80
+  pipeline:
+    stages:
+      # Create a new CANARY taskSet with the new version, using the canary target group.
+      # The CANARY taskSet receives no traffic in this stage.
+      - name: ECS_CANARY_ROLLOUT
+        with:
+          scale: 30
+      # The CANARY taskSet will receive 20% of the traffic.
+      - name: ECS_TRAFFIC_ROUTING
+        with:
+          canary: 20
+      # Hold the deployment process for 30 seconds.
+      - name: WAIT
+        with:
+          duration: 30s
+      # Update the PRIMARY taskSet to the new version.
+      - name: ECS_PRIMARY_ROLLOUT
+      # The new PRIMARY taskSet will receive 100% of the traffic.
+      - name: ECS_TRAFFIC_ROUTING
+        with:
+          primary: 100
+      # Destroy the CANARY taskSet.
+      - name: ECS_CANARY_CLEAN
+  description: |
+    This app demonstrates how to deploy an ECS application under an ALB with a customized pipeline.\
+    The app will be deployed gradually with the Canary strategy using two target groups.\
+    cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#ecs-application)

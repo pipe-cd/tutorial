@@ -1,0 +1,21 @@
+# This file defines task-definition's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/register-task-definition.html for other options.
+family: canary-app-family
+executionRoleArn: <YOUR_TASK_EXECUTION_ARN> # [EDIT_HERE]
+containerDefinitions:
+  - command: null
+    cpu: 100
+    image: public.ecr.aws/nginx/nginx:1
+    memory: 100
+    mountPoints: []
+    name: web
+    portMappings:
+      - containerPort: 80
+compatibilities:
+  - FARGATE
+requiresCompatibilities:
+  - FARGATE
+networkMode: awsvpc
+memory: 512
+cpu: 256
+pidMode: ""
+volumes: []

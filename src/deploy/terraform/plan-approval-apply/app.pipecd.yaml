@@ -1,0 +1,15 @@
+# This file defines the behavior of deploying a simple Terraform resource with plan/approval/apply stages.
+apiVersion: pipecd.dev/v1beta1
+kind: TerraformApp
+spec:
+  name: plan-approval-apply-app
+  input:
+    terraformVersion: 1.8.3
+  pipeline:
+    stages:
+      - name: TERRAFORM_PLAN # Execute `terraform plan`
+      - name: WAIT_APPROVAL # Wait for the approval on the console
+      - name: TERRAFORM_APPLY # Execute `terraform apply`
+  description: |
+    This app demonstrates how to deploy a Terraform resource with a customized pipeline.\
+    cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#terraform-application)
