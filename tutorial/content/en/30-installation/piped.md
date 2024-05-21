@@ -4,9 +4,9 @@ weight: 3
 description: "Run a Piped agent"
 ---
 
-In this page, you will run a Piped agent on local, which is a single binary.
+In this page, you will run a Piped agent on local as a single binary.
 
-This corresponds to `(2)` in the following figure.
+This corresponds to `(3)` in the following figure.
 ![local architecture](/images/architecture.png)
 
 ## Installation
