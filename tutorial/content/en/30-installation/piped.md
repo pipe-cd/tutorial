@@ -27,23 +27,24 @@ This corresponds to `(2)` in the following figure.
    1-5. You will see the Piped's ID and Key. **You will use them in the following steps.**
     ![Piped is registered](/images/installation/piped-registered.png)
 
-2. Edit your [src/installation/piped/piped.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/piped/piped.yaml) as below.
-   - `spec.pipedID`: `Piped Id` you got in `1-5.`
-   - `spec.repositories[0].remote`: The URL of your repository on GitHub you created in [1. Setup Git Repository](git.md).
-   - `spec.platformProviders`: Uncomment one item. You will deploy to the environment.
-
-3. Move on to the directory you cloned in [1. Setup Git Repository](git.md).
+2. Move on to the directory you cloned in [1. Setup Git Repository](git.md).
 
    ```console
    cd <YOUR_CLONED_TUTORIAL_DIR>
    cd src/installation/piped/
    ```
 
-4. Replace `<YOUR_PIPED_KEY>` below to the value you got in `1-5.` and create a file of the Piped Key.[^1]
+3. Replace `<YOUR_PIPED_KEY>` below to the value you got in `1-5.` and create a file of the Piped Key.[^1]
 
    ```console
    echo -n <YOUR_PIPED_KEY> > .pipedKey
    ```
+
+4. Edit your [src/installation/piped/piped.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/piped/piped.yaml) as below.
+   - `spec.pipedID`: `Piped Id` you got in `1-5.`
+   - `spec.pipedKeyFile`: `<YOUR_CLONED_TUTORIAL_DIR>/src/installation/piped/.pipedKey`
+   - `spec.repositories[0].remote`: The URL of your repository on GitHub you created in [1. Setup Git Repository](git.md).
+   - `spec.platformProviders`: Uncomment one item. You will deploy to the environment.
 
 5. Get the official binary of Piped from [pipecd/releases](https://github.com/pipe-cd/pipecd/releases/latest). Choose your OS and CPU architecture.
 
