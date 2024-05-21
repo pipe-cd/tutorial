@@ -4,9 +4,9 @@ weight: 20
 description: "What you need in advance"
 ---
 
-To perform this tutorial, you'll need the following:
+To perform this tutorial, you need the following:
 
-- [docker-compose](https://docs.docker.com/compose/install/)
+- [docker-compose](https://docs.docker.com/compose/install/): You can execute `docker-compose up`.
 - `git`: You can execute `git clone` and `git push` to your repositories on GitHub.
 - At least one of the following. It depends on where you deploy.
   - for **Kubernetes**:
