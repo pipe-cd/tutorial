@@ -6,12 +6,7 @@ description: "Clean up the local PipeCD you built"
 
 ## Clean up the Piped
 
-```console
-docker stop <CONTAINER ID or Name>
-```
-
-cf. [https://docs.docker.com/reference/cli/docker/container/stop/](https://docs.docker.com/reference/cli/docker/container/stop/)
-
+Execute `Ctrl+C` to stop the process.
 
 ## Clean up the Control Plane
 
