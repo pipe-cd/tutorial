@@ -22,9 +22,11 @@ This is **NOT** intended for those who right now want to:
 
 ## What you will do
 
-You will run PipeCD on local and deploy by it. The overall architecture is as below:
+You will run PipeCD on local and deploy by it. The architecture is as below:
 
 ![local architecture resized](/images/architecture-resized.png)
+
+In [Additional Features](50-features/) section, the architecture will be expanded.
 
 
 ### Table of Contents
