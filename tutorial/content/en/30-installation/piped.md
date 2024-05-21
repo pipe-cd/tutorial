@@ -52,10 +52,15 @@ This corresponds to `(2)` in the following figure.
    # CPU=arm64 or amd64
    curl -Lo ./piped  https://github.com/pipe-cd/pipecd/releases/download/v0.47.2/piped_v0.47.2_${OS}_${CPU}
 
+   ```
+
+6. Make the Piped executable.
+
+   ```console
    chmod +x ./piped
    ```
 
-6. Run a Piped.[^2]
+6. Run the Piped.[^2]
 
    ```console
    ./piped piped --config-file=./piped.yaml --insecure
