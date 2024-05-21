@@ -17,9 +17,9 @@ To perform this tutorial, you need the following:
   - for **Amazon ECS**:
     - You can call APIs of [ECS](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/index.html) and [ELBv2](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/elbv2/index.html) from your local to your AWS account.
     - You have all of (i.e. all you need to create an ECS service):
-      - a ECS cluster
-      - an ALB that the service will receive traffic from
-      - two target groups that the ALB uses to traffic to the service
+      - an ECS cluster
+      - an ELB that the service will receive traffic from
+      - two target groups that the ELB routes traffic to the service
       - two subnets where the service will be placed
       - a security group which allows `HTTP:80` inbound from your local
       - a task execution role which has [`AmazonECSTaskExecutionRolePolicy`](https://docs.aws.amazon.com/ja_jp/aws-managed-policy/latest/reference/AmazonECSTaskExecutionRolePolicy.html). See [here](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html).

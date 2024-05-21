@@ -12,5 +12,5 @@ spec:
         containerName: web
         containerPort: 80
   description: |
-    This app demonstrates how to deploy an ECS application under an ALB with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
+    This app demonstrates how to deploy an ECS application under an ELB with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
     cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#ecs-application)
