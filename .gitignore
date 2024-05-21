@@ -1,7 +1,14 @@
 .vscode
 
 
+# PipeCD (tutorial specific)
+.pipedKey
+
 # Terraform
 **/.terraform/*
 *.tfstate
 *.tfstate.*
+
+
+# dev
+**.drawio
