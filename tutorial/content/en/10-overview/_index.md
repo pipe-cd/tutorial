@@ -14,6 +14,8 @@ PipeCD is an OSS for Continuous Delivery.
 PipeCD - a GitOps style solution for Continuous Delivery
 </p>
 
+PipeCD's main characteristics are as below.
+
 **1. Deploy to several kinds of platforms**
 - Currently, PipeCD supports five kinds of deployment target
   - Kubernetes
@@ -27,48 +29,34 @@ PipeCD - a GitOps style solution for Continuous Delivery
 - 
 
 **3. GitOps style**
-  
+
 - 
+
+<!-- - Automatically detect configuration drifts. -->
 - See [GitOps Principles by OpenGitOps](https://opengitops.dev/#principles) for more.
 
-## Why PipeCD?
+## Why PipeCD
+
+Here are the main reasons why PipeCD is useful.
 
 **Unified**
 
-- You can use a unified CD tool for whichever platform you use
-<!-- - Same deployment interface to deploy applications of any platform, including Kubernetes, Terraform, GCP Cloud Run, AWS Lambda, AWS ECS -->
+- You can use one unified CD tool for several platforms.
 
-**Faster & Safer Delivery**
+**Faster & safer delivery**
 
+- PipeCD can automatically judge whether to continue or rollback a deployment by [the Analysis feature](https://pipecd.dev/docs/user-guide/managing-application/customizing-deployment/automated-deployment-analysis/).
 - Progressive Delivery
-- Analysis
-<!-- - Insights show metrics like lead time, deployment frequency, MTTR and change failure rate to measure delivery performance
-Automated deployment analysis to measure deployment impact based on metrics, logs, emitted requests
-Automatically roll back to the previous state as soon as analysis or a pipeline stage fails -->
-
-
-**Fit for a Large Organization**
-
-- Fit for large organizations
-<!-- - Designed to manage thousands of cross-platform applications in multi-cloud for company scale but also work well for small projects -->
 
 **Secure**
 
-<!-- 
-- No deployment credentials are exposed or required outside the application cluster
-- Credentials are not exposed outside the cluster and not saved in the Control Plane
-- Piped makes only outbound requests and can run inside a restricted network
-- Built-in secrets management -->
+- Credentials of application environments are not exposed outside.
+- A Piped agent can run inside a restricted network because it has outbound requests but no inbound.
 
 
-<!-- ### GitOps(??)
+**Fit for large organizations too**
 
-- Automatically detect configuration drifts.
--  -->
-
-
-
-
+<!-- - Designed to manage thousands of cross-platform applications in multi-cloud for company scale but also work well for small projects -->
 
 
 
