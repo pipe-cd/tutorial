@@ -9,10 +9,11 @@ terraform {
 }
 
 provider "aws" {
-  region  = "us-east-1" # [EDIT_HERE]
+  region  = var.region
   profile = "default"
 }
 
+variable "region" {}
 variable "bucket_name" {}
 
 resource "aws_s3_bucket" "tutorial_bucket" {

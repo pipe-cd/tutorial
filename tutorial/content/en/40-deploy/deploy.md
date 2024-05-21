@@ -30,8 +30,7 @@ In this page, you will deploy an application to your platform in a simple way.
 - For **Terraform**:
   - You will create an S3 bucket of AWS.
   - Edit [terraform/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/simple) as below.
-    - `main.tf`: Edit `region` of AWS.
-    - `terraform.tfvars`: Edit `bucket_name` of S3.
+    - `terraform.tfvars`: Edit `region` and `bucket_name` of S3.
   - You can also use your own terraform files instead.
 
 
