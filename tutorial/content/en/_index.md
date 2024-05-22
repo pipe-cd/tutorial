@@ -43,4 +43,3 @@ We recommend reading in order.
 ## See Also
 
 - [PipeCD Doc](https://pipecd.dev/docs/)
-- [QuickStart](https://pipecd.dev/docs/quickstart/): This is recommended if you just want to see how PipeCD works and have a Kubernetes environment. It is more quickly than this tutorial.
