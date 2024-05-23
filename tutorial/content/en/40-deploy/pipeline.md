@@ -23,7 +23,7 @@ The process is almost the same as [1. Simple](deploy.md). Only the config files 
     - `taskdef.yaml`: Copy from your [/src/deploy/ecs/simple/taskdef.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/ecs/simple/taskdef.yaml) and rename `family`.
 - For **AWS Lambda**:
   - Edit [lambda/canary/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/lambda/canary) as below.
-    - `function.yaml`: Copy from your [/src/deploy/lambda/simple/function.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/lambda/simple/function.yaml).
+    - `function.yaml`: Copy from your [/src/deploy/lambda/simple/function.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/lambda/simple/function.yaml) and rename `name`.
 - For **Terraform**:
   - You will generate a file on local.
   - Edit [terraform/plan-approval-apply/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/plan-approval-apply) as below.
@@ -50,7 +50,8 @@ _The same flow as [1. Simple](deploy.md#2-register-the-application)._
 
 _The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
 
-> **NOTE**: In the first deployment, the application is deployed without the customized pipeline.
+> **Note**: If you deploy with **Terraform**, skip to [4-3.](#4-edit-the-config-and-watch-a-new-deployment). 
+> For other platforms, you need to follow below and deploy twice because a customized pipeline is not used in the first deployment for an application,
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
