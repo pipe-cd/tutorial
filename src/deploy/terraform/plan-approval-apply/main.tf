@@ -18,4 +18,8 @@ variable "bucket_name" {}
 
 resource "aws_s3_bucket" "tutorial_bucket" {
   bucket = var.bucket_name
+  tags = {
+    Name        = "tutorial"
+    Environment = "pipecd"
+  }
 }
