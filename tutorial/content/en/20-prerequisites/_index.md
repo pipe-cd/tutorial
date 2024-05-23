@@ -29,4 +29,4 @@ To perform this tutorial, you need the following:
       - an image in your ECR Repository
       - function’s execution role
   - for **Terraform**:
-    - You can execute [`terraform` commands](https://developer.hashicorp.com/terraform/cli/commands) from your local to your target environment(AWS, Google Cloud, etc.).
+    - You can execute [`terraform` commands](https://developer.hashicorp.com/terraform/cli/commands) on local.

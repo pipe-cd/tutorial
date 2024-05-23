@@ -5,8 +5,6 @@ spec:
   name: simple-app
   input:
     terraformVersion: 1.8.3
-    varFiles:
-      - terraform.tfvars
   description: |
     This app demonstrates how to deploy a Terraform resource with [Quick Sync](https://pipecd.dev/docs/concepts/#sync-strategy) strategy.\
     cf. [adding a new app](https://pipecd.dev/docs/user-guide/managing-application/adding-an-application/), [app configuration](https://pipecd.dev/docs/user-guide/configuration-reference/#terraform-application)

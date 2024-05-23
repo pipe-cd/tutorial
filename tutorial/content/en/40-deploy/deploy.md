@@ -28,10 +28,9 @@ In this page, you will deploy an application to your platform in a simple way.
   - Edit [lambda/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/lambda/simple) as below.
     - `function.yaml`: Edit `role` and `image`.
 - For **Terraform**:
-  - You will create an S3 bucket of AWS.
+  - You will generate a file on local.
   - Edit [terraform/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/simple) as below.
-    - `terraform.tfvars`: Edit `region` and `bucket_name` of S3.
-  - You can also use your own terraform files instead.
+    - `filename`: Specify any absolute path. A file will be generated here.
 
 
 1-2. Commit and push the changes to remote.
@@ -91,3 +90,5 @@ In this page, you will deploy an application to your platform in a simple way.
 
 4-4. A new deployment will start in a few minutes.
 > **Note**: That happened because your Piped detected a new commit that has not been deployed yet and triggered the new deployment.
+
+> **Note**: We recommend deploying by above flow in order to keep your Git repository as Single Source of Truth even though you can deploy by a `SYNC` button on console.
