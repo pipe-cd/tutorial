@@ -26,7 +26,7 @@ The process is almost the same as [1. Simple](deploy.md). Only the config files 
     - `function.yaml`: Copy from your [/src/deploy/lambda/simple/function.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/lambda/simple/function.yaml).
 - For **Terraform**:
   - Edit [terraform/plan-approval-apply/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/plan-approval-apply) as below.
-    - `terraform.tfvars`: Copy from your [/src/deploy/terraform/simple/terraform.tfvars](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/terraform/simple/terraform.tfvars) and rename `bucket_name`.
+    - `terraform.tfvars`: Edit `region` and rename `bucket_name`.
   - You can also use your own terraform files instead.
 
 
