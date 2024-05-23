@@ -5,6 +5,8 @@ spec:
   name: plan-approval-apply-app
   input:
     terraformVersion: 1.8.3
+    varFiles: 
+      - terraform.tfvars
   pipeline:
     stages:
       - name: TERRAFORM_PLAN # Execute `terraform plan`
