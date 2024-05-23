@@ -26,11 +26,11 @@ The process is almost the same as [1. Simple](deploy.md). Only the config files 
     - `function.yaml`: Copy from your [/src/deploy/lambda/simple/function.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/lambda/simple/function.yaml).
 - For **Terraform**:
   - You will generate a file on local.
-  - Edit [terraform/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/simple) as below.
-    - `filename`: Specify any absolute path. A file will be generated here.
-
+  - Edit [terraform/plan-approval-apply/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/plan-approval-apply) as below.
+    - `main.tf`: Edit `path` and `filename`.
 
 1-2. Commit and push the change to remote.
+
 
 ## 2. Register the application
 

@@ -30,8 +30,7 @@ In this page, you will deploy an application to your platform in a simple way.
 - For **Terraform**:
   - You will generate a file on local.
   - Edit [terraform/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/simple) as below.
-    - `filename`: Specify any absolute path. A file will be generated here.
-
+    - `main.tf`: Edit `path` and `filename`.
 
 1-2. Commit and push the changes to remote.
 
