@@ -68,7 +68,7 @@ This corresponds to `(3)` in the following figure.
    ```
 
    <details>
-   <summary>Troubleshooting</summary>
+   <summary>Troubleshooting (Click to expand)</summary>
 
    - `failed to create api client	{"error": "context deadline exceeded"}`
      - It means the piped failed to connect to the control plane.
