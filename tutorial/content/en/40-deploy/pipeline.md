@@ -34,7 +34,7 @@ The process is almost the same as [1. Simple](deploy.md). Only the config files 
 
 ## 2. Register the application
 
-The same flow as [1. Simple](deploy.md#2-register-the-application).
+_The same flow as [1. Simple](deploy.md#2-register-the-application)._
 
 2-1. Go to the console. [http://localhost:8080](http://localhost:8080)
 
@@ -46,15 +46,29 @@ The same flow as [1. Simple](deploy.md#2-register-the-application).
    - `Application`: The application you configured in [1.](#1-prepare-config-files)
 
 
-## 3. Watch the new deployment
+## 3. Watch the first deployment
 
-The same flow as [1. Simple](deploy.md#4-edit-the-config-and-watch-a-new-deployment).
+_The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
+
+> **NOTE**: In the first deployment, the application is deployed without the customized pipeline.
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
-3-2. Wait until a new deployment automatically appear. Then click it to see details.
+3-2. Wait until a new deployment automatically appear and finish.
 
-3-3. You will see the deployment with the customized pipeline.
+<!-- ![deployment-pipeline](/images/deploy/deployment-pipeline.png) -->
+
+## 4. Edit the config and watch a new deployment
+
+_The same flow as [1. Simple](deploy.md#4-edit-the-config-and-watch-a-new-deployment)._
+
+4-1. Edit the config file you deployed. (e.g. Change the image tag, sizing, etc.)
+
+4-2. Commit and push the change to remote.
+
+4-3. Go to the deployments page again. [http://localhost:8080/deployments](http://localhost:8080/deployments)
+
+4-4. A new deployment with the customized pipeline will start in a few minutes.
 
 ![deployment-pipeline](/images/deploy/deployment-pipeline.png)
 
