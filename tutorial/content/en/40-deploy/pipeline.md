@@ -6,7 +6,7 @@ description: "Deploy with a customized pipeline"
 
 In this page, you will deploy a new application with a customized pipeline like Canary strategy.
 
-The process is almost the same as [1. Simple](deploy.md). Only the config files (mainly `app.pipecd.yaml`) are different.
+The process is almost the same as [1. Simple](deploy.md). Only the config files (essentially only `app.pipecd.yaml`) are different.
 
 ## 1. Prepare config files
 
@@ -59,7 +59,7 @@ _The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
 
 <!-- ![deployment-pipeline](/images/deploy/deployment-pipeline.png) -->
 
-## 4. Edit the config and watch a new deployment
+## 4. Edit the config and watch the customized deployment
 
 _The same flow as [1. Simple](deploy.md#4-edit-the-config-and-watch-a-new-deployment)._
 
