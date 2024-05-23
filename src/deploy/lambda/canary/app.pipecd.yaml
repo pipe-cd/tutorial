@@ -3,7 +3,8 @@ apiVersion: pipecd.dev/v1beta1
 kind: LambdaApp
 spec:
   name: canary-app
-  functionManifestFile: function.yaml
+  input:
+    functionManifestFile: function.yaml
   pipeline:
     stages:
       # Deploy workloads of the new version but it will receive no traffic yet.
