@@ -23,6 +23,9 @@ spec:
     ## [2] Google Cloud > Cloud Run
     # - name: my-cloudrun
     #   type: CLOUDRUN
+    #   config:
+    #     project: <YOUR_GOOGLE_CLOUD_PROJECT> # [EDIT_HERE]
+    #     region: <YOUR_GOOGLE_GLOUD_REGION> # [EDIT_HERE]
 
     ## [3] AWS > ECS
     # - name: my-ecs
