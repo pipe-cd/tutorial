@@ -1,7 +1,7 @@
 # A simple file will be created in your host. See https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file.
 terraform {
   backend "local" {
-    path = "/{ANY_ABSOLUTE_PATH}/local-state-pipeline.tfstate" # [EDIT_HERE] .tfstate will be placed in this path on local.
+    path = "/{ANY_ABSOLUTE_PATH}/pipecd-tutorial-tf-pipeline.tfstate" # [EDIT_HERE] .tfstate will be placed in this path on local.
   }
 }
 
