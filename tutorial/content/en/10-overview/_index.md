@@ -36,5 +36,5 @@ Architecture Overview
 
 ## See Also
 
-- [docs/overview](https://pipecd.dev/docs/overview/)
-- [docs/concepts](https://pipecd.dev/docs/concepts/)
+- [Doc > Overview](https://pipecd.dev/docs/overview/)
+- [Doc > Concepts](https://pipecd.dev/docs/concepts/)
