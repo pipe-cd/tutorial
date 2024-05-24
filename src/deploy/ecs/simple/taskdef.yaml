@@ -1,5 +1,5 @@
 # This file defines task-definition's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/register-task-definition.html for other options.
-family: simple-app-family
+family: pipecd-tutorial-simple-family
 executionRoleArn: <YOUR_TASK_EXECUTION_ARN> # [EDIT_HERE]
 containerDefinitions:
   - command: null

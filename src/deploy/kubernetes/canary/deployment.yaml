@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: canary
+  name: pipecd-tutorial-canary
   labels:
-    app: canary
+    app: pipecd-tutorial-canary
 spec:
   replicas: 2
   revisionHistoryLimit: 2
   selector:
     matchLabels:
-      app: canary
+      app: pipecd-tutorial-canary
       pipecd.dev/variant: primary
   template:
     metadata:
       labels:
-        app: canary
+        app: pipecd-tutorial-canary
         pipecd.dev/variant: primary
     spec:
       containers:

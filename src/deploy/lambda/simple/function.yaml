@@ -2,7 +2,7 @@
 apiVersion: pipecd.dev/v1beta1
 kind: LambdaFunction
 spec:
-  name: SimpleFunction
+  name: PipeCDTutorial_Simple
   role: <IAM_ROLE_ARN> # [EDIT_HERE] The ARN of the function’s execution role.
   image: <IMAGE_URI> # [EDIT_HERE] The URI of a container image in your ECR repository.
   memory: 512

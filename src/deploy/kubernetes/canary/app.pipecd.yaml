@@ -2,7 +2,12 @@
 apiVersion: pipecd.dev/v1beta1
 kind: KubernetesApp
 spec:
-  name: canary
+  name: canary-app
+  input:
+    manifests:
+      - deployment.yaml
+      - service.yaml
+    kubectlVersion: 1.18.5
   pipeline:
     stages:
       # Deploy the workloads of CANARY variant. In this case, the number of

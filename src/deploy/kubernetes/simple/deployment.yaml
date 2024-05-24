@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple
+  name: pipecd-tutorial-simple
   labels:
-    app: simple
+    app: pipecd-tutorial-simple
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: simple
+      app: pipecd-tutorial-simple
       pipecd.dev/variant: primary
   template:
     metadata:
       labels:
-        app: simple
+        app: pipecd-tutorial-simple
         pipecd.dev/variant: primary
       annotations:
         sidecar.istio.io/inject: "false"

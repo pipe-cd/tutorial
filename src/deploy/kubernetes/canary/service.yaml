@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: canary
+  name: pipecd-tutorial-canary
 spec:
   selector:
-    app: canary
+    app: pipecd-tutorial-canary
   ports:
     - protocol: TCP
       port: 9085
