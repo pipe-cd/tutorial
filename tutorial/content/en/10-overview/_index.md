@@ -4,7 +4,9 @@ weight: 10
 description: "Briefly understand an overview of PipeCD"
 ---
 
-## Architecture
+In this page, you will understand important mechanisms of PipeCD.
+
+## Architecture Overview
 
 PipeCD is mainly made up of two components - **Control Plane** and **Piped**.
 
@@ -33,6 +35,10 @@ Architecture Overview
 - Scalability in a large organization
   - xxx
 - UI?? -->
+
+## Flow of Deployment
+
+
 
 ## See Also
 
