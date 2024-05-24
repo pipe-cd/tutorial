@@ -59,19 +59,19 @@ In this page, you will deploy an application to your platform in a simple way.
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
-3-2. Wait until a new deployment automatically appear. Then click it to see details.
+3-2. Wait until a new deployment automatically appears. Then click it to see details.
 
 > **Note**: You do not need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
 
 ![deployment-appear](/images/deploy/deployment-appear.png)
 
 
-3-3. Wait until the status become `SUCCESS`/`FAILURE`. If it shows `FAILURE`, check the log in the page.
+3-3. Wait until the status becomes `SUCCESS`/`FAILURE`. If it shows `FAILURE`, check the log in the page.
 
 ![deployment-deploying](/images/deploy/deployment-deploying.png)
 
 
-3-4. When the status become `SUCCESS`, the deloyment is successfully finished.
+3-4. When the status becomes `SUCCESS`, the deloyment is successfully finished.
 
 ![deployment-success](/images/deploy/deployment-success.png)
 

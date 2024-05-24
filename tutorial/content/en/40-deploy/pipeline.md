@@ -55,7 +55,7 @@ _The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
-3-2. Wait until a new deployment automatically appear and finish.
+3-2. Wait until a new deployment appears and finishes.
 
 <!-- ![deployment-pipeline](/images/deploy/deployment-pipeline.png) -->
 
