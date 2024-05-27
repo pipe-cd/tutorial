@@ -70,6 +70,7 @@ _The same flow as [1. Simple](deploy.md#4-edit-the-config-and-watch-a-new-deploy
 4-4. A new deployment with the customized pipeline will start in a few minutes.
 
 ![deployment-pipeline](/images/deploy/deployment-pipeline.png)
+<p class="caption">Deploying an ECS application with Canary strategy</p>
 
 ## See Also
 
