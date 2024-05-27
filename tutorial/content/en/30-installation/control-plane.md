@@ -38,13 +38,13 @@ This corresponds to `(2)` in the following figure.
 2. Enter the following value and click `CONTINUE`.
    - `Project Name`: `tutorial`
 
-    ![login-project](/images/installation/login1.png)
+    ![signin-project](/images/installation/signin-project.png)
 
 3. Enter the following values and click `LOGIN`.
    - `Username`: `hello-pipecd`
    - `Password`: `hello-pipecd`
 
-    ![login-username-password](/images/installation/login2.png)
+    ![signin-username-password](/images/installation/signin-user.png)
 
 4. If successful, the following page will appear.
 
