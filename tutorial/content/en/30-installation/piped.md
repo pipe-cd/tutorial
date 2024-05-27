@@ -31,7 +31,7 @@ This corresponds to `(3)` in the following figure.
    cd src/installation/piped/
    ```
 
-3. Replace `<YOUR_PIPED_KEY>` below to the value you got in `1-4.` and create a file of the Piped Key.[^1]
+3. Replace `<YOUR_PIPED_KEY>` below to the `Piped Key` value you got in `1-4.` and create a file of the key.[^1]
 
    ```console
    echo -n <YOUR_PIPED_KEY> > .pipedKey
@@ -58,7 +58,7 @@ This corresponds to `(3)` in the following figure.
    chmod +x ./piped
    ```
 
-6. Run the Piped.[^2]
+7. Run the Piped.[^2]
 
    ```console
    ./piped piped --config-file=./piped.yaml --insecure
@@ -89,7 +89,7 @@ This corresponds to `(3)` in the following figure.
 
 1. Access the Piped settings page on the console: [http://localhost:8080/settings/piped](http://localhost:8080/settings/piped)
 
-    If successful, you will see a green mark(=`Online`) in the `Name` area.
+    If successful, you will see a green mark(`Online`) in the `Name` area.
     If not green, please wait for a few minutes.
       ![Piped Status](/images/installation/piped-status.png)
 
