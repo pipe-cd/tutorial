@@ -8,7 +8,7 @@ In this page, you will deploy an application to your platform in a simple way.
 
 ## 1. Prepare config files
 
-1-1. Choose one platform and edit configuration files under [/src/deploy/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/) in your cloned repository as bellow.
+1-1. Edit configuration files of one platform under [/src/deploy/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/) in your cloned repository as bellow.
    > **Note**: Each platform has a deployment config file (`app.pipecd.yaml`) + platform-specific files.
 
 - For **Kubernetes**:
@@ -59,7 +59,7 @@ In this page, you will deploy an application to your platform in a simple way.
 
 3-2. Wait until a new deployment automatically appears. Then click it to see details.
 
-> **Note**: You do not need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
+> **Note**: You do NOT need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
 
 ![deployment-before-appear](/images/deploy/deployment-before-appear.png)
 ![deployment-appear](/images/deploy/deployment-appear.png)
@@ -87,6 +87,3 @@ In this page, you will deploy an application to your platform in a simple way.
 4-3. Go to the deployments page again. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
 4-4. A new deployment will start in a few minutes.
-> **Note**: That happened because your Piped detected a new commit that has not been deployed yet and triggered the new deployment.
-
-> **Note**: We recommend deploying by above flow in order to keep your Git repository as Single Source of Truth even though you can deploy by a `SYNC` button on console.
