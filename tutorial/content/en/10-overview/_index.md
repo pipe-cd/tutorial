@@ -40,11 +40,11 @@ PipeCD is made up of two components - **Control Plane** and **Piped Agent**.
 ### FAQ: Why PipeCD has Control Plane and Piped?
 A. For scalability in large organizations with security.
 
-- Why not a Piped does everything?
+- What if a Piped does everything?
 
-  -> If so, each team needs to manage storage for states on a Piped, which is not easy and decreases scalability.
+  -> If so, each team needs to manage storage for states on a Piped, which is difficult and decreases scalability.
 
-- Why not a Control Plane does everything?
+- What if a Control Plane does everything?
 
   -> If so, a Control Plane needs to access each team's environments with strong permissions, which is not secure.
 
