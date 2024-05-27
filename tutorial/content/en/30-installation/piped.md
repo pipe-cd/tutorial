@@ -13,18 +13,15 @@ This corresponds to `(3)` in the following figure.
 
 1. Create a Piped ID on the console.
 
-   1-1. Access the console on [http://localhost:8080](http://localhost:8080).
+   1-1. Access the Piped settings page on the console: [http://localhost:8080/settings/piped](http://localhost:8080/settings/piped)
 
-   1-2. Go to the Settings page via [the three dots menu on the upper right] > `Settings`.
-    ![go to settings page](/images/installation/piped-go-to-settings.png)
-
-   1-3. Click `+ ADD`.
+   1-2. Click `+ ADD`.
     ![ADD Piped](/images/installation/piped-add-button.png)
 
-   1-4. Enter any `Name` and `Description`, and then click `SAVE`.
+   1-3. Enter any `Name` and `Description`, and then click `SAVE`.
     ![Input piped](/images/installation/piped-add-input.png)
 
-   1-5. You will see the Piped's ID and Key. **You will use them in the following steps.**
+   1-4. You will see the Piped's ID and Key. **You will use them in the following steps.**
     ![Piped is registered](/images/installation/piped-registered.png)
 
 2. Move on to the directory you cloned in [1. Setup Git Repository](git.md).
@@ -34,14 +31,14 @@ This corresponds to `(3)` in the following figure.
    cd src/installation/piped/
    ```
 
-3. Replace `<YOUR_PIPED_KEY>` below to the value you got in `1-5.` and create a file of the Piped Key.[^1]
+3. Replace `<YOUR_PIPED_KEY>` below to the value you got in `1-4.` and create a file of the Piped Key.[^1]
 
    ```console
    echo -n <YOUR_PIPED_KEY> > .pipedKey
    ```
 
 4. Edit your [src/installation/piped/piped.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/piped/piped.yaml) as below.
-   - `spec.pipedID`: `Piped Id` you got in `1-5.`
+   - `spec.pipedID`: `Piped Id` you got in `1-4.`
    - `spec.pipedKeyFile`: `<YOUR_CLONED_TUTORIAL_DIR>/src/installation/piped/.pipedKey`
    - `spec.repositories[0].remote`: The URL of your repository on GitHub you created in [1. Setup Git Repository](git.md).
    - `spec.platformProviders`: Uncomment one item. You will deploy to the environment.
@@ -90,9 +87,9 @@ This corresponds to `(3)` in the following figure.
 
 ## Confirmation
 
-1. Access the `Settings` page on the console. [http://localhost:8080/settings/piped](http://localhost:8080/settings/piped)
+1. Access the Piped settings page on the console: [http://localhost:8080/settings/piped](http://localhost:8080/settings/piped)
 
-    If successful, you will see a green mark(=Online) in the `Name` area of your Piped.
+    If successful, you will see a green mark(=`Online`) in the `Name` area.
     If not green, please wait for a few minutes.
       ![Piped Status](/images/installation/piped-status.png)
 
