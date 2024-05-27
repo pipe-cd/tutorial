@@ -8,17 +8,18 @@ In this page, you will understand essential mechanisms of PipeCD.
 
 ## Architecture Overview
 
-PipeCD is made up of two components - **Control Plane** and **Piped Agent**.
+PipeCD is made up of two components - **Control Plane** and **Piped (Agent)**.
 
 ![architecture-overview](/images/overview/architecture-overview.png)
 <p class="caption">Architecture Overview</p>
 
 **1. Control Plane**
-   - stores states (e.g. deployment statuses)
+   - stores states (e.g. deployment status, log)
    - provides the console UI
 
 **2. Piped (Agent)**
    - plans & executes deployments
+   - sends states to Control Plane
    - is a stateless single binary component. So it's easy to run and manage.
 
 ### FAQ: Why PipeCD has Control Plane and Agent?
