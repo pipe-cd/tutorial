@@ -12,7 +12,7 @@ This corresponds to `(2)` in the following figure.
 
 ## Installation
 
-1. Execute the following command on [src/installation/control-plane/docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/control-plane/docker-compose.yaml).
+1. Execute the following command on your [src/installation/control-plane/docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/control-plane/docker-compose.yaml).
     ```sh
     docker-compose up
     ```
@@ -35,22 +35,21 @@ This corresponds to `(2)` in the following figure.
 ## Confirmation
 
 1. Access the console running on [http://localhost:8080](http://localhost:8080)
-2. The following screen will appear. Enter the following value and click `CONTINUE`.
-   - `Project Name`: `tutorial`　[^1]
+2. The following page will appear. Enter the following value and click `CONTINUE`.
+   - `Project Name`: `tutorial`
 
     ![login-project](/images/installation/login1.png)
 
-3. The following screen will appear. Enter the following values and click `LOGIN`.
-   - `Username`: `hello-pipecd` [^1]
+3. The following page will appear. Enter the following values and click `LOGIN`.
+   - `Username`: `hello-pipecd`
    - `Password`: `hello-pipecd`
 
     ![login-username-password](/images/installation/login2.png)
 
-4. If successful, the following screen will appear.
+4. If successful, the following page will appear.
 
     ![applications-page](/images/installation/applications.png)
 
-[^1]: These values are defined in [control-plane.yaml>`spec.projects`](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/control-plane/volume/pipecd-config/control-plane.yaml).
 
 ## See Also
 
