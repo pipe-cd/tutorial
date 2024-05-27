@@ -35,12 +35,12 @@ This corresponds to `(2)` in the following figure.
 ## Confirmation
 
 1. Access the console running on [http://localhost:8080](http://localhost:8080)
-2. The following page will appear. Enter the following value and click `CONTINUE`.
+2. Enter the following value and click `CONTINUE`.
    - `Project Name`: `tutorial`
 
     ![login-project](/images/installation/login1.png)
 
-3. The following page will appear. Enter the following values and click `LOGIN`.
+3. Enter the following values and click `LOGIN`.
    - `Username`: `hello-pipecd`
    - `Password`: `hello-pipecd`
 
