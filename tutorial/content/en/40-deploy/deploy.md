@@ -37,14 +37,12 @@ In this page, you will deploy an application to your platform in a simple way.
 
 ## 2. Register the application
 
-2-1. Go to the console. [http://localhost:8080](http://localhost:8080)
+2-1. Go to the applications page. [http://localhost:8080](http://localhost:8080)
 
 2-2. Click `+ ADD`.
 
-![add-application](/images/deploy/application-add.png)
-
 2-3. Enter values and click `SAVE`->`SAVE`.
-   - `Piped`: Your Piped's Id
+   - `Piped`: Your Piped
    - `Platform Provider`: The platform
    - `Application`: The application you configured in [1.](#1-prepare-config-files)
 
