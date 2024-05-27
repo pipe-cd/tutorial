@@ -57,8 +57,6 @@ _The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
 
 3-2. Wait until a new deployment appears and finishes.
 
-<!-- ![deployment-pipeline](/images/deploy/deployment-pipeline.png) -->
-
 ## 4. Edit the config and watch the customized deployment
 
 _The same flow as [1. Simple](deploy.md#4-edit-the-config-and-watch-a-new-deployment)._
