@@ -61,6 +61,7 @@ In this page, you will deploy an application to your platform in a simple way.
 
 > **Note**: You do not need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
 
+![deployment-before-appear](/images/deploy/deployment-before-appear.png)
 ![deployment-appear](/images/deploy/deployment-appear.png)
 
 
@@ -73,7 +74,7 @@ In this page, you will deploy an application to your platform in a simple way.
 
 ![deployment-success](/images/deploy/deployment-success.png)
 
-3-5. See your platform (Kubernetes cluster, cloud console, etc.) to check the result.
+3-5. Check your platform (Kubernetes cluster, cloud console, etc.) to confirm the result.
      
 
 
