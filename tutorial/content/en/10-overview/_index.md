@@ -6,22 +6,6 @@ description: "Briefly understand an overview of PipeCD"
 
 In this page, you will understand important mechanisms of PipeCD.
 
-
-<!-- 
-このページの目的
-・ハンズオンやっていくにあたって、なぜこんな手間が必要なのかを頭に入れておき、ハンズオンをスムーズに実施できるようにする
-
-必要なこと
-・Control PlaneとPipedから構成されること
-　・なぜそんな仕組み？単体じゃダメなの？
-・デプロイの流れ/仕組み？
-　・GitOps
-  ・
-
- -->
-
-
-
 ## Architecture Overview
 
 PipeCD is made up of two components - **Control Plane** and **Piped Agent**.
@@ -37,7 +21,8 @@ PipeCD is made up of two components - **Control Plane** and **Piped Agent**.
    - plans & executes deployments
    - is a stateless single binary component. So it's easy to run and manage.
 
-### FAQ: Why PipeCD has Control Plane and Piped?
+### FAQ: Why PipeCD has both Control Plane and Piped?
+
 A. For scalability in large organizations with security.
 
 - What if a Piped does everything?
