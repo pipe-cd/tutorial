@@ -35,17 +35,14 @@ PipeCD is made up of two components - **Control Plane** and **Piped Agent**.
 
 **2. Piped Agent**
    - plans & executes deployments
-   - is a stateless single binary component
+   - is a stateless single binary component. So it's easy to run and manage.
 
 ### FAQ: Why PipeCD has Control Plane and Piped?
-
-A. For scalability with security. 
-
-PipeCD is designed for large organizations.
+A. For scalability in large organizations with security.
 
 - Why not a Piped does everything?
 
-  -> If so, each team needs to manage storage for states on a Piped, which is not easy and reduces scalability.
+  -> If so, each team needs to manage storage for states on a Piped, which is not easy and decreases scalability.
 
 - Why not a Control Plane does everything?
 
