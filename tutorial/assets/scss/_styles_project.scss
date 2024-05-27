@@ -72,6 +72,20 @@
 .medium-zoom-overlay {
     z-index: 100;
 }
+
 .medium-zoom-image--opened {
     z-index: 101;
+}
+
+.td-main {
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+.caption {
+    text-align: center;
+    margin-top: -20px;
 }

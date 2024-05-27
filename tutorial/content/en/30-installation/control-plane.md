@@ -7,7 +7,7 @@ description: "Easily install a Control Plane by docker-compose"
 In this page, you will install a Control Plane on local by `docker-compose`.
 
 This corresponds to `(2)` in the following figure.
-![local architecture](/images/architecture.png)
+![architecure on local](/images/architecture.png)
 
 
 ## Installation
@@ -44,7 +44,7 @@ This corresponds to `(2)` in the following figure.
    - `Username`: `hello-pipecd`
    - `Password`: `hello-pipecd`
 
-    ![signin-username-password](/images/installation/signin-user.png)
+    ![signin-username-password](/images/installation/.png)
 
 4. If successful, the following page will appear.
 

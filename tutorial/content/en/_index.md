@@ -24,7 +24,8 @@ This is **NOT** intended for those who right now want to:
 
 You will run PipeCD on local and deploy by it. The architecture is as below:
 
-![local architecture resized](/images/architecture-resized.png)
+![architecture on local](/images/architecture.png)
+<p class="caption">Architecture in the tutorial</p>
 
 In [Additional Features](50-features/) section, the architecture will be expanded.
 

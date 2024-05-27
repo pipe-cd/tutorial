@@ -11,10 +11,7 @@ In this page, you will understand important mechanisms of PipeCD.
 PipeCD is mainly made up of two components - **Control Plane** and **Piped**.
 
 ![architecture-overview](/images/overview/architecture-overview.png)
-
-<p style="text-align: center;">
-Architecture Overview
-</p>
+<p class="caption">Architecture Overview</p>
 
 **1. Control Plane**
    1. provides the UI
