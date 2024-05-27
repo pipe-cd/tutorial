@@ -44,7 +44,7 @@ This corresponds to `(2)` in the following figure.
    - `Username`: `hello-pipecd`
    - `Password`: `hello-pipecd`
 
-    ![signin-username-password](/images/installation/.png)
+    ![signin-user](/images/installation/signin-user.png)
 
 4. If successful, the following page will appear.
 
