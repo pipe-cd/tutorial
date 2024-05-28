@@ -24,7 +24,8 @@
       {{ partial "navbar-lang-selector.html" . }}
     </div>
     {{ end -}}
-    {{ $navRoot := cond (and (ne .Params.toc_root true) (eq .Site.Home.Type "docs")) .Site.Home .FirstSection -}}
+    <!-- {{ $navRoot := cond (and (ne .Params.toc_root true) (eq .Site.Home.Type "docs")) .Site.Home .FirstSection -}} -->
+    {{ $navRoot := .Site.Home -}}
     {{ $ulNr := 0 -}}
     {{ $ulShow := cond (isset .Site.Params.ui "ul_show") .Site.Params.ui.ul_show 1 -}}
     {{ $sidebarMenuTruncate := cond (isset .Site.Params.ui "sidebar_menu_truncate") .Site.Params.ui.sidebar_menu_truncate 50 -}}
