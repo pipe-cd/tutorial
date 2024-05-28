@@ -1,5 +1,5 @@
 ---
-title: "1. Simple"
+title: "1. Deploy Simply"
 weight: 1
 description: "Deploy simply and experience GitOps"
 ---

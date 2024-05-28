@@ -1,10 +1,10 @@
 ---
-title: "2. Customize the Pipeline"
+title: "2. Deploy with a Customized Pipeline"
 weight: 2
-description: "Deploy with a customized pipeline"
+description: "Customize a pipeline and deploy"
 ---
 
-In this page, you will deploy a new application with a customized pipeline like Canary strategy.
+In this page, you will deploy with a customized pipeline like Canary strategy.
 
 The process is almost the same as [1. Simple](deploy.md). Only the config files (essentially only `app.pipecd.yaml`) are different.
 
