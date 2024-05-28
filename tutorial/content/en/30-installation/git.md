@@ -4,7 +4,7 @@ weight: 1
 description: "Setup repositories on local and GitHub"
 ---
 
-Copy [the tutorial repository](https://github.com/ca-dp/pipecd-tutorial.git) into your local and GitHub.
+In this page, before the installation, you will copy [the tutorial repository](https://github.com/ca-dp/pipecd-tutorial.git) into your local and GitHub.
 It contains configs for the installation and deployments.
 
 > **Note**: Do not `Fork` here to hide your configs from public.
