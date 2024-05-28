@@ -1,10 +1,10 @@
 ---
-title: "Overview"
+title: "Mechanism Overview"
 weight: 10
-description: "Briefly understand essential mechanisms of PipeCD"
+description: "Briefly understand the essential mechanism of PipeCD"
 ---
 
-In this page, you will understand essential mechanisms of PipeCD.
+In this page, you will learn about the essential mechanism of PipeCD.
 
 ## Architecture Overview
 
@@ -33,10 +33,6 @@ PipeCD is made up of two components - **Control Plane** and **Piped (Agent)**.
 - What if a central component does everything?
 
   -> A central component would access each team's environments with strong permissions, which is not secure.
-
-
-## Flow of Deployment
-
 
 
 ## See Also
