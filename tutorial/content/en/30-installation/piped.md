@@ -13,13 +13,13 @@ In this page, you will run a Piped agent on local as a single binary.
    1-1. Access the Piped settings page on the console: [http://localhost:8080/settings/piped](http://localhost:8080/settings/piped)
 
    1-2. Click `+ ADD`.
-    ![ADD Piped](/images/installation/piped-add-button.png)
+    ![ADD Piped](/images/install/piped-add-button.png)
 
    1-3. Enter any `Name` and `Description`, and then click `SAVE`.
-    ![Input piped](/images/installation/piped-add-input.png)
+    ![Input piped](/images/install/piped-add-input.png)
 
    1-4. You will see the Piped's ID and Key. **You will use them in the following steps.**
-    ![Piped is registered](/images/installation/piped-registered.png)
+    ![Piped is registered](/images/install/piped-registered.png)
 
 2. Move on to the directory you cloned in [1. Setup Git Repository](git.md).
 
@@ -88,7 +88,7 @@ In this page, you will run a Piped agent on local as a single binary.
 
     If successful, you will see a green mark(`Online`) in the `Name` area.
     If not green, please wait for a few minutes.
-      ![Piped Status](/images/installation/piped-status.png)
+      ![Piped Status](/images/install/piped-status.png)
 
 ## See Also
 

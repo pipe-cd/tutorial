@@ -34,17 +34,17 @@ In this page, you will install a Control Plane on local by `docker-compose`.
 2. Enter the following value and click `CONTINUE`.
    - `Project Name`: `tutorial`
 
-    ![signin-project](/images/installation/signin-project.png)
+    ![signin-project](/images/install/signin-project.png)
 
 3. Enter the following values and click `LOGIN`.
    - `Username`: `hello-pipecd`
    - `Password`: `hello-pipecd`
 
-    ![signin-user](/images/installation/signin-user.png)
+    ![signin-user](/images/install/signin-user.png)
 
 4. If successful, the following page will appear.
 
-    ![applications-page](/images/installation/applications.png)
+    ![applications-page](/images/install/applications.png)
 
 
 ## See Also
