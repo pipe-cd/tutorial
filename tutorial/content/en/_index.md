@@ -12,7 +12,7 @@ This is a hands-on introduction to PipeCD for the beginners.
 
 By the end of this tutorial, you will be able to:
   - Understand the architecture of PipeCD
-  - Experiment with PipeCD locally
+  - Experiment with PipeCD
   - Deploy with pipelines you define
 
 This is **NOT** intended for those who right now want to:
@@ -39,7 +39,6 @@ We recommend reading in order.
 3. [**Installation**](30-installation/): Install PipeCD on local.
 4. [**Deploy**](40-deploy/): Deploy applications and customize the pipeline.
 5. [**Additional Features**](50-features/) (_optional_): Learn about some advanced features. You can skip it if you are in a hurry.
-6. [**Clean up**](90-clean/): Clean up the local PipeCD.
 
 ## See Also
 
