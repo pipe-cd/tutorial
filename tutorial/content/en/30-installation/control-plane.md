@@ -8,7 +8,7 @@ In this page, you will install a Control Plane on local by `docker-compose`.
 
 ## Installation
 
-1. Execute the following command on your [src/installation/control-plane/docker-compose.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/control-plane/docker-compose.yaml).
+1. Execute the following command on your `src/installation/control-plane/docker-compose.yaml`.
     ```sh
     docker-compose up
     ```

@@ -34,7 +34,7 @@ In this page, you will run a Piped agent on local as a single binary.
    echo -n <YOUR_PIPED_KEY> > .pipedKey
    ```
 
-4. Edit your [src/installation/piped/piped.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/installation/piped/piped.yaml) as below.
+4. Edit your `src/installation/piped/piped.yaml` as below.
    - `spec.pipedID`: `Piped Id` you got in `1-4.`
    - `spec.pipedKeyFile`: `<YOUR_CLONED_TUTORIAL_DIR>/src/installation/piped/.pipedKey`
    - `spec.repositories[0].remote`: The URL of your repository on GitHub you created in [1. Setup Git Repository](git.md).
