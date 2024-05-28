@@ -6,7 +6,7 @@ description: "Customize a pipeline and deploy"
 
 In this page, you will deploy with a customized pipeline like Canary release.
 
-The process is almost the same as [1. Simple](deploy.md). Only the config files (essentially only `app.pipecd.yaml`) are different.
+_The process is almost the same as [1. Deploy Simply](deploy.md). Only the config files (essentially only `app.pipecd.yaml`) are different._
 
 ## 1. Prepare config files
 
@@ -38,8 +38,6 @@ The process is almost the same as [1. Simple](deploy.md). Only the config files 
 
 ## 2. Register the application
 
-_The same flow as [1. Simple](deploy.md#2-register-the-application)._
-
 2-1. Go to the console. [http://localhost:8080](http://localhost:8080)
 
 2-2. Click `+ ADD`.
@@ -52,8 +50,6 @@ _The same flow as [1. Simple](deploy.md#2-register-the-application)._
 
 ## 3. Watch the first deployment
 
-_The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
-
 > **Note**: If you deploy **Terraform**, skip to [4-3.](#4-edit-the-config-and-watch-the-customized-deployment). 
 > For other platforms, you need to follow below and deploy twice because a customized pipeline is not used in the first deployment.
 
@@ -62,8 +58,6 @@ _The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
 3-2. Wait until a new deployment appears and finishes.
 
 ## 4. Edit the config and watch the customized deployment
-
-_The same flow as [1. Simple](deploy.md#4-edit-the-config-and-watch-a-new-deployment)._
 
 4-1. Edit the config file you deployed. (e.g. Change the image tag, sizing, etc.)
 
