@@ -64,13 +64,13 @@ languageName = "English"
 # Weight used for sorting.
 weight = 1
 
-[languages.ja]
-title = "PipeCD Tutorial"
-# description = "The Tutorial for PipeCD Beginners"
-contentDir = "content/ja"
-languageName = "日本語"
-# Weight used for sorting.
-weight = 2
+# [languages.ja]
+# title = "PipeCD Tutorial"
+# # description = "The Tutorial for PipeCD Beginners"
+# contentDir = "content/ja"
+# languageName = "日本語"
+# # Weight used for sorting.
+# weight = 2
 
 [markup]
 [markup.goldmark]
