@@ -7,7 +7,7 @@ description: "Easily install a Control Plane by docker-compose"
 In this page, you will install a Control Plane on local by `docker-compose`.
 
 This corresponds to `(2)` in the following figure.
-![architecure on local](/images/architecture.png)
+![architecure on local](/images/architecture.svg)
 
 
 ## Installation
