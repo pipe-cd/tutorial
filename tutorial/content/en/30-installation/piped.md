@@ -1,13 +1,10 @@
 ---
-title: "3. Piped"
+title: "3. Install Piped"
 weight: 3
-description: "Run a Piped agent"
+description: "Install a Piped agent"
 ---
 
 In this page, you will run a Piped agent on local as a single binary.
-
-This corresponds to `(3)` in the following figure.
-![architecure on local](/images/architecture.svg)
 
 ## Installation
 
