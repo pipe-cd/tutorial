@@ -34,7 +34,7 @@ In [Additional Features](50-features/) section, the architecture will be expande
 
 We recommend reading in order.
 
-1. [**Overview**](10-overview/): Quickly learn about the overall architecture and the deloyment mechanism.
+1. [**Mechanism Overview**](10-overview/): Quickly learn about the overall architecture and the deloyment mechanism.
 2. [**Prerequisites**](20-prerequisites/): What you need before the tutorial.
 3. [**Install**](30-install/): Install PipeCD on local.
 4. [**Deploy**](40-deploy/): Deploy applications and customize the pipeline.
