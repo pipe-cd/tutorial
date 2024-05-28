@@ -11,4 +11,4 @@ BEFORE=$1
 AFTER=$2
 
 find tutorial/content -type f -exec sed -i '' "s/${BEFORE}/${AFTER}/g" {} \;
-find src/installation/ -type f -exec sed -i '' "s/${BEFORE}/${AFTER}/g" {} \;
+find src/install/ -type f -exec sed -i '' "s/${BEFORE}/${AFTER}/g" {} \;
