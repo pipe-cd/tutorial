@@ -14,3 +14,4 @@ The deployment flow is like this:
 4. Your Piped deploys.
 
 ![deployment flow](/images/deploy/deployment-flow.svg)
+<p class="caption">Deployment flow</p>
