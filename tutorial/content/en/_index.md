@@ -8,10 +8,10 @@ weight: 1
 This is a hands-on introduction to PipeCD for the beginners.
 
 
-## What for
+## The Goal
 
 By the end of this tutorial, you will be able to:
-  - Understand the architecture of PipeCD
+  - Understand the basic mechanism of PipeCD
   - Experiment with PipeCD
   - Deploy with pipelines you define
 
@@ -30,13 +30,10 @@ You will run PipeCD on local and deploy by it. The architecture is as below:
 
 ### Table of Contents
 
-We recommend reading in order.
-
 1. [**Mechanism Overview**](10-overview/): Quickly learn about the overall architecture and the deloyment mechanism.
 2. [**Prerequisites**](20-prerequisites/): What you need before the tutorial.
 3. [**Install**](30-install/): Install PipeCD on local.
 4. [**Deploy**](40-deploy/): Deploy applications and customize the pipeline.
-5. **Additional Features** (_coming soon_): Try some features you will frequently use. (e.g. [Event Watcher](https://pipecd.dev/docs/user-guide/event-watcher/))
 
 ## See Also
 
