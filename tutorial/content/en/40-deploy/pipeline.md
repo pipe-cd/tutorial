@@ -54,8 +54,8 @@ _The same flow as [1. Simple](deploy.md#2-register-the-application)._
 
 _The same flow as [1. Simple](deploy.md#3-watch-the-first-deployment)._
 
-> **Note**: If you deploy with **Terraform**, skip to [4-3.](#4-edit-the-config-and-watch-a-new-deployment). 
-> For other platforms, you need to follow below and deploy twice because a customized pipeline is not used in the first deployment for an application,
+> **Note**: If you deploy **Terraform**, skip to [4-3.](#4-edit-the-config-and-watch-the-customized-deployment). 
+> For other platforms, you need to follow below and deploy twice because a customized pipeline is not used in the first deployment.
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
