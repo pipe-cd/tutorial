@@ -1,5 +1,5 @@
 ---
-title: "Installation"
+title: "Install"
 weight: 30
 description: "Run PipeCD on local easily"
 ---
