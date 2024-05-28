@@ -13,4 +13,4 @@ The deployment flow is like this:
 3. Your Piped detects the config change on remote.
 4. Your Piped deploys.
 
-![deployment flow](/images/architecture.svg)
+![deployment flow](/images/deploy/deployment-flow.svg)

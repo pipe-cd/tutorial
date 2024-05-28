@@ -8,4 +8,4 @@ In this chapter, you will run a Control Plane and a Piped locally.
 
 The architecture you will build is as below. The numbers mean the order of the work.
 
-![architecure on local](/images/architecture.svg)
+![Installation flow](/images/installation/installation-flow.svg)
