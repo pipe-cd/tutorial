@@ -10,27 +10,27 @@ The process is almost the same as [1. Simple](deploy.md). Only the config files 
 
 ## 1. Prepare config files
 
-1-1. Edit configuration files of one platform under [/src/deploy/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/) in your cloned repository as bellow.
+1-1. Edit configuration files of one platform under `/src/deploy/` in your cloned repository as bellow.
 
 - For **Kubernetes**:
   - You will run a [helloworld](https://github.com/pipe-cd/pipecd/pkgs/container/helloworld) service by Canary release.
-  - Use [kubernetes/canary/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/kubernetes/canary). You do not need to edit.
+  - Use `kubernetes/canary/`. You do not need to edit.
 - For **Google Cloud Run**:
   - You will run a [helloworld](https://github.com/pipe-cd/pipecd/pkgs/container/helloworld) service by Canary release.
-  - Use [cloudrun/canary/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/cloudrun/canary). You do not need to edit.
+  - Use `cloudrun/canary/`. You do not need to edit.
 - For **Amazon ECS**:
   - You will run an nginx service by Canary release.
-  - Edit [ecs/canary/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/ecs/canary) as below.
+  - Edit `ecs/canary/` as below.
     - `app.pipecd.yaml`: Edit `targetGroupArn` of primary and canary.
-    - `servicedef.yaml`: Copy from your [/src/deploy/ecs/simple/servicedef.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/ecs/simple/servicedef.yaml) and rename `serviceName`.
-    - `taskdef.yaml`: Copy from your [/src/deploy/ecs/simple/taskdef.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/ecs/simple/taskdef.yaml) and rename `family`.
+    - `servicedef.yaml`: Copy from your `/src/deploy/ecs/simple/servicedef.yaml` and rename `serviceName`.
+    - `taskdef.yaml`: Copy from your `/src/deploy/ecs/simple/taskdef.yaml` and rename `family`.
 - For **AWS Lambda**:
   - You will create a function of your own image by Canary release.
-  - Edit [lambda/canary/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/lambda/canary) as below.
-    - `function.yaml`: Copy from your [/src/deploy/lambda/simple/function.yaml](https://github.com/ca-dp/pipecd-tutorial/blob/main/src/deploy/lambda/simple/function.yaml) and rename `name`.
+  - Edit `lambda/canary/` as below.
+    - `function.yaml`: Copy from your `/src/deploy/lambda/simple/function.yaml`] and rename `name`.
 - For **Terraform**:
   - You will generate a file on local with plan->approval->apply pipeline.
-  - Edit [terraform/plan-approval-apply/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/plan-approval-apply) as below.
+  - Edit `terraform/plan-approval-apply/` as below.
     - `main.tf`: Edit `path` and `filename`.
 
 1-2. Commit and push the change to remote.

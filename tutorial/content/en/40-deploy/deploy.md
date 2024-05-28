@@ -8,28 +8,28 @@ In this page, you will deploy an application to your platform in a simple way.
 
 ## 1. Prepare config files
 
-1-1. Edit configuration files of one platform under [/src/deploy/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/) in your cloned repository as bellow.
+1-1. Edit configuration files of one platform under `/src/deploy/` in your cloned repository as bellow.
    > **Note**: Each platform has a deployment config file (`app.pipecd.yaml`) + platform-specific files.
 
 - For **Kubernetes**:
   - You will run a [helloworld](https://github.com/pipe-cd/pipecd/pkgs/container/helloworld) service.
-  - Use [kubernetes/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/kubernetes/simple). You do not need to edit.
+  - Use `kubernetes/simple/`. You do not need to edit.
 - For **Google Cloud Run**:
   - You will run a [helloworld](https://github.com/pipe-cd/pipecd/pkgs/container/helloworld) service.
-  - Use [cloudrun/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/cloudrun/simple). You do not need to edit.
+  - Use `cloudrun/simple/`. You do not need to edit.
 - For **Amazon ECS**:
   - You will run an nginx service.
-  - Edit [ecs/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/ecs/simple) as below.
+  - Edit `ecs/simple/` as below.
     - `app.pipecd.yaml`: Edit `targetGroupArn`.
     - `servicedef.yaml`: Edit `cluster`, `securityGroups`, and `subnets`.
     - `taskdef.yaml`: Edit `executionRoleArn`.
 - For **AWS Lambda**:
   - You will create a function of your own image.
-  - Edit [lambda/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/lambda/simple) as below.
+  - Edit `lambda/simple/` as below.
     - `function.yaml`: Edit `role` and `image`.
 - For **Terraform**:
   - You will generate a file on local.
-  - Edit [terraform/simple/](https://github.com/ca-dp/pipecd-tutorial/tree/main/src/deploy/terraform/simple) as below.
+  - Edit `terraform/simple/` as below.
     - `main.tf`: Edit `path` and `filename`.
 
 1-2. Commit and push the changes to remote.
