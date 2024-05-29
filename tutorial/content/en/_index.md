@@ -30,11 +30,11 @@ You will run PipeCD on local and deploy by it. The architecture is as below:
 
 ### Table of Contents
 
-1. [**Mechanism Overview**](10-overview/): Quickly learn about the overall architecture and the deloyment mechanism.
+1. [**Mechanism Overview**](10-overview/): Quickly learn about the overall architecture.
 2. [**Prerequisites**](20-prerequisites/): What you need before the tutorial.
 3. [**Install**](30-install/): Install PipeCD on local.
-4. [**Deploy**](40-deploy/): Deploy applications and customize the pipeline.
+4. [**Deploy**](40-deploy/): Deploy and customize the pipeline.
 
 ## See Also
 
-- [PipeCD Doc](https://pipecd.dev/docs/)
+- [PipeCD Docs](https://pipecd.dev/docs/)
