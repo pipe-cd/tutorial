@@ -17,7 +17,7 @@ By the end of this tutorial, you will be able to:
 
 This is **NOT** intended for those who right now want to:
 
-- Install PipeCD in a production-ready way (See [Doc > Installation](https://pipecd.dev/docs/installation/))
+- Install PipeCD in a production-ready way (See [Docs > Installation](https://pipecd.dev/docs/installation/))
 - Develop and test PipeCD (See [CONTRIBUTING.md](https://github.com/pipe-cd/pipecd/blob/master/CONTRIBUTING.md))
 
 ## What you will do

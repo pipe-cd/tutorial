@@ -39,5 +39,5 @@ PipeCD is made up of two components - **Control Plane** and **Piped (Agent)**.
 
 ## See Also
 
-- [Doc > Overview](https://pipecd.dev/docs/overview/)
-- [Doc > Concepts](https://pipecd.dev/docs/concepts/)
+- [Docs > Overview](https://pipecd.dev/docs/overview/)
+- [Docs > Concepts](https://pipecd.dev/docs/concepts/)
