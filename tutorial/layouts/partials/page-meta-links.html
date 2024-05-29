@@ -1,20 +1,17 @@
 {{ if .Path }}
-{{ $pathFormatted := replace .Path "\\" "/" }}
-{{ $gh_repo := ($.Param "github_repo") }}
-{{ $gh_subdir := ($.Param "github_subdir") }}
-{{ $gh_project_repo := ($.Param "github_project_repo") }}
-{{ $gh_branch := (default "master" ($.Param "github_branch")) }}
+{{ $path := strings.TrimPrefix (add hugo.WorkingDir "/") $.File.Filename -}}
+{{ $gh_repo := $.Param "github_repo" -}}
+{{ $gh_url := $.Param "github_url" -}}
+{{ $gh_subdir := $.Param "github_subdir" | default "" -}}
+{{ $gh_project_repo := $.Param "github_project_repo" -}}
+{{ $gh_branch := $.Param "github_branch" | default "main" -}}
 {{ if $gh_repo }}
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-{{ $editURL := printf "%s/edit/%s/content/%s" $gh_repo $gh_branch $pathFormatted }}
-{{ if and ($gh_subdir) (.Site.Language.Lang) }}
-{{ $editURL = printf "%s/edit/%s/%s/content/%s/%s" $gh_repo $gh_branch $gh_subdir ($.Site.Language.Lang) $pathFormatted }}
-{{ else if .Site.Language.Lang }}
-{{ $editURL = printf "%s/edit/%s/content/%s/%s" $gh_repo $gh_branch ($.Site.Language.Lang) $pathFormatted }}
-{{ else if $gh_subdir }}
-{{ $editURL = printf "%s/edit/%s/%s/content/%s" $gh_repo $gh_branch $gh_subdir $pathFormatted }}
-{{ end }}
-{{ $issuesURL := printf "%s/issues/new?title=%s" $gh_repo (htmlEscape $.Title )}}
+{{ $gh_repo_path := printf "%s/%s/%s" $gh_branch $gh_subdir $path -}}
+{{ $gh_repo_path = replaceRE "//+" "/" $gh_repo_path -}}
+
+{{ $editURL := printf "%s/edit/%s" $gh_repo $gh_repo_path -}}
+{{ $issuesURL := printf "%s/issues/new?title=%s" $gh_repo (safeURL $.Title ) -}}
 <a href="{{ $editURL }}" target="_blank" rel="noreferrer"><i class="fa fa-edit fa-fw"></i> {{ T "post_edit_this" }}</a>
 <a href="{{ $issuesURL }}" target="_blank" rel="noreferrer"><i class="fab fa-github fa-fw"></i> {{ T "post_create_issue" }}</a>
 {{ if $gh_project_repo }}
