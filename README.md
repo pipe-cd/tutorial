@@ -5,11 +5,12 @@ The Tutorial for PipeCD Beginners.
 
 See [tutorial/content/en/_index.md](tutorial/content/en/_index.md) for details.
 
-### The Intended Readers
+### Intended Readers
 
 In order to clarify the target readers and simplify the contents, we assume thier knowledge as below:
 
 - **Required** (otherwise they would not be interested in PipeCD):
+  - what's PipeCD
   - use of Git
   - use of Container
   - the concept of CI/CD
@@ -17,10 +18,9 @@ In order to clarify the target readers and simplify the contents, we assume thie
 
 
 - **Not Required** (the tutorial will explain):
-
-  - What's PipeCD
-  - What's GitOps
-  - What's Progressive Delivery
+  - how PipeCD works
+  - what's GitOps
+  - what's Progressive Delivery
 
 
 
