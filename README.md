@@ -1,11 +1,11 @@
-# pipecd-tutorial
+# tutorial
 The Tutorial for PipeCD Beginners.
 
-<span style='color:red'>This will be moved to pipe-cd org and published.</span>
+## Overview of the Tutorial
 
 See [tutorial/content/en/_index.md](tutorial/content/en/_index.md) for details.
 
-## The Intended Readers
+### The Intended Readers
 
 In order to clarify the target readers and simplify the contents, we assume thier knowledge as below:
 
@@ -30,7 +30,7 @@ In order to clarify the target readers and simplify the contents, we assume thie
 - `tutorial/`: The tutorial contents. See [Hugo](https://gohugo.io/) and [Docsy](https://www.docsy.dev/) for details.
   - `content/`: Markdown files of the contents.
     - `en/`: English contents.
-    - `ja/`: Japanese contents. This has the same structure as `en/`.
+    - `ja/`: Japanese contents. This has the same structure as `en/`. (coming soon?)
   - `layouts/`: Layout components of the pages.
   - `static/images`: Images in the tutorial.
   
