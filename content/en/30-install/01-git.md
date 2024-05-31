@@ -1,6 +1,6 @@
 # 1. Setup Git Repository
 
-In this page, before the installation, you will copy [the tutorial repository](https://github.com/pipe-cd/tutorial.git) into your local and GitHub.
+In this page, before the installation, you will copy this tutorial repository into your local and GitHub.
 It contains configs for the installation and deployments.
 
 > [!NOTE]
