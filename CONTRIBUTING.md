@@ -1,4 +1,6 @@
-# Contributing to the tutorial
+# Contributing to the Tutorial
+
+TODO: We should add some sections for contributors.
 
 ## Intended Readers
 
@@ -18,10 +20,10 @@ In order to clarify the target readers and simplify the contents, we assume thie
 
 ## Repository Structure
 
-- `src/`: The configuration sources used in the tutorial.
 - `content/`: Markdown files of the contents.
   - `en/`: English contents.
   - `ja/`: Japanese contents. This has the same structure as `en/`. (coming soon?)
+- `hack`: util commands. not for users.
 - `images`: Images in the tutorial.
-  
+- `src/`: The configuration sources used in the tutorial.
 
