@@ -1,8 +1,4 @@
----
-title: "Prerequisites"
-weight: 20
-description: "What you need in advance"
----
+# Prerequisites
 
 To perform this tutorial, you need the following:
 

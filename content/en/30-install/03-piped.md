@@ -1,8 +1,4 @@
----
-title: "3. Install Piped"
-weight: 3
-description: "Install a Piped agent"
----
+# 3. Install Piped
 
 In this page, you will run a Piped agent on local as a single binary.
 

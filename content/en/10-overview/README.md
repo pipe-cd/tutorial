@@ -1,8 +1,4 @@
----
-title: "Mechanism Overview"
-weight: 10
-description: "Briefly understand the essential mechanism of PipeCD"
----
+# Mechanism Overview
 
 In this page, you will learn about the essential mechanism of PipeCD.
 

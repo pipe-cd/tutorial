@@ -1,8 +1,4 @@
----
-title: "2. Deploy with a Customized Pipeline"
-weight: 2
-description: "Customize a pipeline and deploy"
----
+# 2. Deploy with a Customized Pipeline
 
 In this page, you will deploy with a customized pipeline like Canary release.
 

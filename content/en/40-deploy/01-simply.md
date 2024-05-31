@@ -1,8 +1,4 @@
----
-title: "1. Deploy Simply"
-weight: 1
-description: "Deploy simply and experience GitOps"
----
+# 1. Deploy Simply
 
 In this page, you will deploy an application to your platform in a simple way.
 

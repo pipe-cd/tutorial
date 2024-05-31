@@ -1,8 +1,4 @@
----
-title: "2. Install Control Plane"
-weight: 2
-description: "Install a Control Plane by docker-compose"
----
+# 2. Install Control Plane
 
 In this page, you will install a Control Plane on local by `docker-compose`.
 

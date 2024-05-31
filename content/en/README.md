@@ -1,8 +1,3 @@
----
-title: "Tutorial"
-weight: 1
----
-
 # **Welcome to PipeCD Tutorial!**
 
 This is a hands-on introduction to PipeCD for the beginners.

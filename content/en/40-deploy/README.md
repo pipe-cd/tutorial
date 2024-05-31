@@ -1,8 +1,4 @@
----
-title: "Deploy"
-weight: 40
-description: "Deploy applications"
----
+# Deploy
 
 In this chapter, you will deploy applications by your local PipeCD.
 
