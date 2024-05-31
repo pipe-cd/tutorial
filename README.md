@@ -1,40 +1,34 @@
-# tutorial
-The Tutorial for PipeCD Beginners.
+# **Welcome to PipeCD Tutorial!**
 
-## Overview of the Tutorial
+This is a hands-on introduction to PipeCD for the beginners.
 
-See [tutorial/content/en/_index.md](tutorial/content/en/_index.md) for details.
+## The Goal
 
-### Intended Readers
+By the end of this tutorial, you will be able to:
+  - Understand the basic mechanism of PipeCD
+  - Experiment with PipeCD
+  - Deploy with pipelines you define
 
-In order to clarify the target readers and simplify the contents, we assume thier knowledge as below:
+This is **NOT** intended for those who right now want to:
 
-- **Required** (otherwise they would not be interested in PipeCD):
-  - what's PipeCD
-  - use of Git
-  - use of Container
-  - the concept of CI/CD
-  - experience at least one of Kubernetes/CloudRun/ECS/Lambda/Terraform
+- Install PipeCD in a production-ready way (See [Docs > Installation](https://pipecd.dev/docs/installation/))
+- Develop and test PipeCD (See [CONTRIBUTING.md](https://github.com/pipe-cd/pipecd/blob/master/CONTRIBUTING.md))
 
+## What you will do
 
-- **Not Required** (the tutorial will explain):
-  - how PipeCD works
-  - what's GitOps
-  - what's Progressive Delivery
+You will run PipeCD on local and deploy by it. The architecture is as below:
 
+![architecture on local](/images/architecture.svg)
+<p align="center">Architecture in the tutorial</p>
 
 
-## Repository Structure
+### Table of Contents
 
-- `src/`: The configuration sources used in the tutorial.
-- `tutorial/`: The tutorial contents. See [Hugo](https://gohugo.io/) and [Docsy](https://www.docsy.dev/) for details.
-  - `content/`: Markdown files of the contents.
-    - `en/`: English contents.
-    - `ja/`: Japanese contents. This has the same structure as `en/`. (coming soon?)
-  - `layouts/`: Layout components of the pages.
-  - `static/images`: Images in the tutorial.
-  
-## Contribution
+1. [**Mechanism Overview**](content/en/10-overview/): Quickly learn about the overall architecture.
+2. [**Prerequisites**](content/en/20-prerequisites/): What you need before the tutorial.
+3. [**Install**](content/en/30-install/): Install PipeCD on local.
+4. [**Deploy**](content/en/40-deploy/): Deploy and customize the pipeline.
 
-<span style='color:red'>TBD (CONTRIBUTING.md will be created)</span>
+## See Also
 
+- [PipeCD Docs](https://pipecd.dev/docs/)
