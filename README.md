@@ -2,6 +2,8 @@
 
 This is a hands-on introduction to PipeCD for the beginners.
 
+<!-- [Japanese](content/ja/README.md) -->
+
 ## The Goal
 
 By the end of this tutorial, you will be able to:
