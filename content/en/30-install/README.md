@@ -7,4 +7,4 @@ description: "Run PipeCD on local easily"
 In this chapter, you will run a Control Plane and a Piped locally.
 
 ![Installation flow](/images/install/installation-flow.svg)
-<p class="caption">Installation flow</p>
+<div style="text-align: center; font-style: italic;">Installation flow</div>

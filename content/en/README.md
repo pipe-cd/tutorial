@@ -25,7 +25,7 @@ This is **NOT** intended for those who right now want to:
 You will run PipeCD on local and deploy by it. The architecture is as below:
 
 ![architecture on local](/images/architecture.svg)
-<p class="caption">Architecture in the tutorial</p>
+<div style="text-align: center; font-style: italic;">Architecture in the tutorial</div>
 
 
 ### Table of Contents
