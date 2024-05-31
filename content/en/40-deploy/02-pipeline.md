@@ -46,7 +46,8 @@ _The process is almost the same as [1. Deploy Simply](deploy.md). Only the confi
 
 ## 3. Watch the first deployment
 
-> **Note**: If you deploy **Terraform**, skip to [4-3.](#4-edit-the-config-and-watch-the-customized-deployment). 
+> [!NOTE]
+> If you deploy **Terraform**, skip to [4-3.](#4-edit-the-config-and-watch-the-customized-deployment). 
 > For other platforms, you need to follow below and deploy twice because a customized pipeline is not used in the first deployment.
 
 3-1. Go to the deployments page. [http://localhost:8080/deployments](http://localhost:8080/deployments)

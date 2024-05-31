@@ -3,7 +3,8 @@
 In this page, before the installation, you will copy [the tutorial repository](https://github.com/pipe-cd/tutorial.git) into your local and GitHub.
 It contains configs for the installation and deployments.
 
-> **Note**: Do not `Fork` here to hide your configs from public.
+> [!NOTE]
+> Do not `Fork` here to hide your configs from public.
 
 ![setup-git-repository](/images/install/setup-git-repo.svg)
 <p align="center">Flow of preparing Git repositories</p>

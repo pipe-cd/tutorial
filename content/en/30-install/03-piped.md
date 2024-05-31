@@ -33,7 +33,7 @@ In this page, you will run a Piped agent on local as a single binary.
 4. Edit your `src/install/piped/piped.yaml` as below.
    - `spec.pipedID`: `Piped Id` you got in `1-4.`
    - `spec.pipedKeyFile`: `<YOUR_CLONED_TUTORIAL_DIR>/src/install/piped/.pipedKey`
-   - `spec.repositories[0].remote`: The URL of your repository on GitHub you created in [1. Setup Git Repository](git.md).
+   - `spec.repositories[0].remote`: The URL of your repository on GitHub you created in [1. Setup Git Repository](01-git.md).
    - `spec.platformProviders`: Uncomment one item. You will deploy to the environment.
 
 5. Get the official binary of Piped from [pipecd/releases](https://github.com/pipe-cd/pipecd/releases/latest). Choose your OS and CPU architecture.

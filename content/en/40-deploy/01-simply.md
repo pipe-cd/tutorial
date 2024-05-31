@@ -5,7 +5,9 @@ In this page, you will deploy an application to your platform in a simple way.
 ## 1. Prepare config files
 
 1-1. Edit configuration files of one platform under `/src/deploy/` in your cloned repository as bellow.
-   > **Note**: Each platform has a deployment config file (`app.pipecd.yaml`) + platform-specific files.
+
+> [!NOTE]
+> Each platform has a deployment config file (`app.pipecd.yaml`) + platform specific files.
 
 - For **Kubernetes**:
   - You will run a [helloworld](https://github.com/pipe-cd/pipecd/pkgs/container/helloworld) service.
@@ -55,7 +57,8 @@ In this page, you will deploy an application to your platform in a simple way.
 
 3-2. Wait until a new deployment automatically appears. Then click it to see details.
 
-> **Note**: You do NOT need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
+> [!NOTE]
+> You do NOT need to invoke a deployment by yourself since your Piped automatically starts it. **This is GitOps.**
 
 ![deployment-before-appear](/images/deploy/deployment-before-appear.png)
 ![deployment-appear](/images/deploy/deployment-appear.png)
