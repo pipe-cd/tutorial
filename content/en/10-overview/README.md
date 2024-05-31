@@ -7,7 +7,7 @@ In this page, you will learn about the essential mechanism of PipeCD.
 PipeCD is made up of two components - **Control Plane** and **Piped (Agent)**.
 
 ![architecture-overview](/images/overview/architecture-role.svg)
-<div style="text-align: center; font-style: italic;">Architecture overview</div>
+<p align="center">Architecture overview</p>
 
 **1. Control Plane**
    - stores states (e.g. deployment status, log)
@@ -31,7 +31,7 @@ PipeCD is made up of two components - **Control Plane** and **Piped (Agent)**.
   -> A central component would access each team's environments with strong permissions, which is not secure.
 
 ![scalability in a organization](/images/overview/architecture-organization.svg)
-<div style="text-align: center; font-style: italic;">Scalability in a organization</div>
+<p align="center">Scalability in a organization</p>
 
 ## See Also
 

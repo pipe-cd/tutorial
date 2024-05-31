@@ -64,7 +64,7 @@ _The process is almost the same as [1. Deploy Simply](deploy.md). Only the confi
 4-4. A new deployment with the customized pipeline will start in a few minutes.
 
 ![deployment-pipeline](/images/deploy/deployment-pipeline.png)
-<div style="text-align: center; font-style: italic;">Deploying an ECS application with Canary strategy</div>
+<p align="center">Deploying an ECS application with Canary strategy</p>
 
 ## See Also
 

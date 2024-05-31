@@ -10,4 +10,4 @@ The deployment flow is like this:
 4. Your Piped deploys.
 
 ![deployment flow](/images/deploy/deployment-flow.svg)
-<div style="text-align: center; font-style: italic;">Deployment flow</div>
+<p align="center">Deployment flow</p>

@@ -6,7 +6,7 @@ It contains configs for the installation and deployments.
 > **Note**: Do not `Fork` here to hide your configs from public.
 
 ![setup-git-repository](/images/install/setup-git-repo.svg)
-<div style="text-align: center; font-style: italic;">Flow of preparing Git repositories</div>
+<p align="center">Flow of preparing Git repositories</p>
 
 
 1. Create a new empty **private** repository in your GitHub account. Any name is fine.
