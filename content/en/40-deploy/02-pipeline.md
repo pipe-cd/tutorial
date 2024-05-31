@@ -2,7 +2,7 @@
 
 In this page, you will deploy with a customized pipeline like Canary release.
 
-_The process is almost the same as [1. Deploy Simply](deploy.md). Only the config files (essentially only `app.pipecd.yaml`) are different._
+_The process is almost the same as [1. Deploy Simply](01-simply.md). Only the config files (essentially only `app.pipecd.yaml`) are different._
 
 ## 1. Prepare config files
 
@@ -72,3 +72,7 @@ _The process is almost the same as [1. Deploy Simply](deploy.md). Only the confi
 - [Configuration examples](https://github.com/pipe-cd/examples)
 - [Customizing deployment](https://pipecd.dev/docs/user-guide/managing-application/customizing-deployment/)
 - [Configuration Reference > Stage options](https://pipecd.dev/docs/user-guide/configuration-reference/#stageoptions)
+
+---
+
+[< Previous: 1. Deploy Simply](01-simply.md)

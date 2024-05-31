@@ -48,3 +48,9 @@ In this page, you will install a Control Plane on local by `docker-compose`.
 - [Architecture Overview](https://pipecd.dev/docs/user-guide/managing-controlplane/architecture-overview/)
 - [Managing Control Plane](https://pipecd.dev/docs/user-guide/managing-controlplane/)
 - [Installing Control Plane on Kubernetes](https://pipecd.dev/docs/installation/install-control-plane/installing-controlplane-on-k8s/)
+
+---
+
+[Next: 3. Install Piped >](03-piped.md)
+
+[< Previous: 1. Setup Git Repository](01-git.md)

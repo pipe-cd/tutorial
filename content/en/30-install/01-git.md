@@ -24,3 +24,8 @@ It contains configs for the installation and deployments.
     ```
 
 
+---
+
+[Next: 2. Install Control Plane >](02-control-plane.md)
+
+[< Previous: Install](README.md)

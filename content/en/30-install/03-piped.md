@@ -17,7 +17,7 @@ In this page, you will run a Piped agent on local as a single binary.
    1-4. You will see the Piped's ID and Key. **You will use them in the following steps.**
     ![Piped is registered](/images/install/piped-registered.png)
 
-2. Move on to the directory you cloned in [1. Setup Git Repository](git.md).
+2. Move on to the directory you cloned in [1. Setup Git Repository](01-git.md).
 
    ```console
    cd <YOUR_CLONED_TUTORIAL_DIR>
@@ -94,3 +94,9 @@ In this page, you will run a Piped agent on local as a single binary.
 [^1]: Do **NOT** push a Piped Key to remote because it is a credential. In actual use, you should store it and `piped.yaml` in a secret management tool.
 
 [^2]: `--insecure` option disables TLS of the communication from the Piped to the Control Plane. (cf. [Piped's Runtime Options](https://pipecd.dev/docs/user-guide/managing-piped/runtime-options/))
+
+---
+
+[Next: Deploy >](../40-deploy/README.md)
+
+[< Previous: 2. Install Control Plane](02-control-plane.md)

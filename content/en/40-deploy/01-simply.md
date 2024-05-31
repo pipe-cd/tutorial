@@ -86,3 +86,9 @@ In this page, you will deploy an application to your platform in a simple way.
 4-3. Go to the deployments page again. [http://localhost:8080/deployments](http://localhost:8080/deployments)
 
 4-4. A new deployment will start in a few minutes.
+
+---
+
+[Next: Deploy with a Customized Pipeline >](02-pipeline.md)
+
+[< Previous: Deploy](README.md)

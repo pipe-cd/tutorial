@@ -26,3 +26,9 @@ To perform this tutorial, you need the following:
       - function’s execution role
   - for **Terraform**:
     - You can execute [`terraform` commands](https://developer.hashicorp.com/terraform/cli/commands) on local.
+
+---
+
+[Next: Install >](../30-install/README.md)
+
+[< Previous: Mechanism Overview](../10-overview/README.md)
