@@ -1,4 +1,6 @@
-# This file defines task-definition's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/register-task-definition.html for other options.
+# This file defines task-definition's detail. 
+# See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/register-task-definition.html 
+# and https://pipecd.dev/docs/user-guide/configuration-reference/#restrictions-of-task-definition for other options.
 family: pipecd-tutorial-canary-family
 executionRoleArn: <YOUR_TASK_EXECUTION_ARN> # [EDIT_HERE]
 containerDefinitions:

@@ -1,4 +1,6 @@
-# This file defines service's detail. See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/create-service.html for other options.
+# This file defines service's detail. 
+# See https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/create-service.html 
+# and https://pipecd.dev/docs/user-guide/configuration-reference/#restrictions-of-service-definition for other options.
 cluster: <YOUR_ECS_CLUSTER_ARN> # [EDIT_HERE] the cluster to which you deploy this service
 serviceName: pipecd-tutorial-canary
 desiredCount: 2
