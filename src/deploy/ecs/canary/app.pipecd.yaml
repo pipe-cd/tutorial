@@ -11,7 +11,8 @@ spec:
         targetGroupArn: <YOUR_TARGET_GROUP_1_ARN> # [EDIT_HERE]
         containerName: web
         containerPort: 80
-      canary: # The canary taskSet will receive traffic via this target group.
+      canary: # The canary taskSet will receive traffic via this target group. 
+        # Before deployments, you need to link this target group to the listener rule (the rule primary uses) with weight:0.
         targetGroupArn: <YOUR_TARGET_GROUP_2_ARN> # [EDIT_HERE]
         containerName: web
         containerPort: 80

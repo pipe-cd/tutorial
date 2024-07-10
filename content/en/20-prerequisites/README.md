@@ -16,6 +16,7 @@ To perform this tutorial, you need the following:
       - an ECS cluster
       - an ELB that the service will receive traffic from
       - two target groups that the ELB routes traffic to the service
+        - you need to link one target group to the ELB's listener rule
       - two subnets where the service will be placed
       - a security group which allows `HTTP:80` inbound from your local
       - a task execution role which has [`AmazonECSTaskExecutionRolePolicy`](https://docs.aws.amazon.com/ja_jp/aws-managed-policy/latest/reference/AmazonECSTaskExecutionRolePolicy.html). See [here](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html).
