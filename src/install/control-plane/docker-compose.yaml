@@ -15,7 +15,7 @@ services:
 
   # Main component of the Control Plane.
   pipecd-server:
-    image: ghcr.io/pipe-cd/pipecd:v0.47.2 # change the version if you want
+    image: ghcr.io/pipe-cd/pipecd:v0.48.0 # change the version if you want
     ports:
       - 9080:9080
     entrypoint: >
@@ -33,7 +33,7 @@ services:
 
   # For administration.
   pipecd-ops:
-    image: ghcr.io/pipe-cd/pipecd:v0.47.2 # change the version if you want
+    image: ghcr.io/pipe-cd/pipecd:v0.48.0 # change the version if you want
     entrypoint: >
       /bin/sh -c "
       until (nc -z pipecd-minio 9000 && nc -z pipecd-mysql 3306) do sleep 2; done;
