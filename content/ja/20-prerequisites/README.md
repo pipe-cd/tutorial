@@ -4,8 +4,7 @@
 
 - [docker-compose](https://docs.docker.com/compose/install/): `docker-compose up`を実行できること
 - `git`: `git clone`と`git push`をあなたのGitHubリポジトリに対して実行できること
-- 下記の中から一つ。どこにデプロイするかによって
-- At least one of the following. It depends on where you deploy.
+- 下記の中から1つ。どこにデプロイするかによって選んでください。
   - **Kubernetes**向け:
     - Kubernetesのクラスターを持っていること。
     - そのクラスターに対して、kubectlで接続できること。
