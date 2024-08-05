@@ -40,4 +40,5 @@ PipeCDは **Control Plane** と **Piped (Agent)** の2つのコンポネント�
 
 ---
 
-[Next: 前提条件 >](../20-prerequisites/README.md)
+
+[< 戻る: 日本語版トップ](../README.md) | [次: 前提条件 >](../20-prerequisites/README.md)
