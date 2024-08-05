@@ -2,7 +2,7 @@
 
 This is a hands-on introduction to PipeCD for the beginners.
 
-<!-- [Go to Japanese ver](content/ja/README.md) -->
+[Go to Japanese ver.](content/ja/README.md)
 
 ## The Goal
 
