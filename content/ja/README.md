@@ -27,11 +27,11 @@
 
 ### 目次
 
-1. [**仕組み概説**](content/ja/10-overview/README.md): PipeCDの基本的な仕組みの学習
-2. [**前提条件**](content/ja/20-prerequisites/README.md): 事前に必要な準備
-3. [**インストール**](content/ja/30-install/): PipeCDをローカルに構築
-4. [**デプロイ**](content/ja/40-deploy/): アプリケーションのデプロイと、パイプラインのカスタマイズ
-5. [**次のステップ**](content/ja/90-nextstep/README.md): このチュートリアルの次のステップ
+1. [**仕組み概説**](./10-overview/README.md): PipeCDの基本的な仕組みの学習
+2. [**前提条件**](./20-prerequisites/README.md): 事前に必要な準備
+3. [**インストール**](./30-install/): PipeCDをローカルに構築
+4. [**デプロイ**](./40-deploy/): アプリケーションのデプロイと、パイプラインのカスタマイズ
+5. [**次のステップ**](./90-nextstep/README.md): このチュートリアルの次のステップ
 
 ## 関連情報
 
@@ -39,4 +39,4 @@
 
 ---
 
-[次: 仕組み概説 >](content/ja/10-overview/README.md)
+[次: 仕組み概説 >](./10-overview/README.md)
