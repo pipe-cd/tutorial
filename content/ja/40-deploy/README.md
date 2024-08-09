@@ -10,7 +10,7 @@
 4. Pipedがデプロイを開始する
 
 ![deployment flow](/images/deploy/deployment-flow.svg)
-<p align="center">Deployment flow</p>
+<p align="center">デプロイの流れ</p>
 
 ---
 

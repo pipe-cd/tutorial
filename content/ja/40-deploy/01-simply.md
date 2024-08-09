@@ -30,7 +30,7 @@
   - `terraform/simple/`の以下の箇所を編集してください。
     - `main.tf`: `path`, `filename`
 
-1-2. 変更をcommitして、リモートにpushしてください。
+1-2. 変更をcommitして、リモートにpushしてください。(Kubernetes, CloudRunは編集不要なので、commit, pushは不要です。)
 
 
 ## 2. アプリケーションの登録

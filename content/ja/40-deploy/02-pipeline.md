@@ -29,14 +29,14 @@ _手順は[1. シンプルなデプロイ](01-simply.md)とほとんど同じで
   - `terraform/plan-approval-apply/`の下記の箇所を編集してください。
     - `main.tf`: `path`, `filename`
 
-1-2. 変更をcommitして、リモートにpushします。
+1-2. 変更をcommitして、リモートにpushします。(Kubernetes, CloudRunは編集不要なので、commit, pushは不要です。)
 
 
 ## 2. アプリケーションの登録
 
 2-1. アプリケーション一覧ページにアクセスします。 [http://localhost:8080](http://localhost:8080)
 
-2-2. Click `+ ADD`.
+2-2. `+ ADD`をクリックします.
 
 2-3. 下記の値を入力し、`SAVE`->`SAVE`をクリックします
    - `Piped`: 構築したPiped
