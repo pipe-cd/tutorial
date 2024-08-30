@@ -12,6 +12,8 @@ services:
     volumes:
       - ./volume/envoy:/etc/envoy
       - ./volume/pipecd-secret:/etc/pipecd-secret
+    environment:
+      ENVOY_UID: 0
 
   # Main component of the Control Plane.
   pipecd-server:
