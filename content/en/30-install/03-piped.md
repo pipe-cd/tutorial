@@ -41,7 +41,7 @@ In this page, you will run a Piped agent on local as a single binary.
    ```console
    # OS=darwin or linux
    # CPU=arm64 or amd64
-   curl -Lo ./piped  https://github.com/pipe-cd/pipecd/releases/download/v0.48.0/piped_v0.48.0_${OS}_${CPU}
+   curl -Lo ./piped  https://github.com/pipe-cd/pipecd/releases/download/v0.50.1/piped_v0.50.1_${OS}_${CPU}
    ```
 
 6. Make the Piped executable.
